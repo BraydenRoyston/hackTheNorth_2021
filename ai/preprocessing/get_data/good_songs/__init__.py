@@ -4,12 +4,9 @@ import lyricsgenius
 import json
 
 
-def insert_good_songs(client):
+def insert_good_songs(collection):
 
     dirname = os.path.dirname(__file__)
-
-    db = client['htn']
-    collection = db['goodSongs']
 
     genius = lyricsgenius.Genius(os.environ.get("CLIENT_ACCESS_TOKEN"))
 
