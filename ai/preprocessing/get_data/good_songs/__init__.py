@@ -9,7 +9,7 @@ def insert_good_songs(client):
     dirname = os.path.dirname(__file__)
 
     db = client['htn']
-    collection = db['rawDatas']
+    collection = db['goodSongs']
 
     genius = lyricsgenius.Genius(os.environ.get("CLIENT_ACCESS_TOKEN"))
 
