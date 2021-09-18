@@ -1,1160 +1,2241 @@
 [
-  { "artist": "Wu-Tang Clan", "song": "C.R.E.A.M." },
-  { "artist": "Geto Boys", "song": "Mind Playin’ Tricks" },
-  { "artist": "Notorious B.I.G.", "song": "Juicy" },
-  { "artist": "Scarface", "song": "I Seen A Man Die" },
-  { "artist": "Jay-Z", "song": "Dead Presidents II" },
   {
-    "artist": "Pete Rock & CL Smooth",
-    "song": "T.R.O.Y. (They Reminisce Over You)"
-  },
-  { "artist": "Nas", "song": "The World Is Yours" },
-  { "artist": "Mobb Deep", "song": "Shook Ones Part II" },
-  { "artist": "Notorious B.I.G.", "song": "Everyday Struggle" },
-  { "artist": "2Pac", "song": "Old School" },
-  { "artist": "Eminem", "song": "Infinite" },
-  { "artist": "Bone Thugs-N-Harmony", "song": "Thuggish Ruggish Bone" },
-  { "artist": "Public Enemy", "song": "Shut Em’ Down (Pete Rock Remix)" },
-  { "artist": "Dr. Dre feat. Snoop Dogg", "song": "Nuthin’ But A G-Thang" },
-  { "artist": "Notorious B.I.G", "song": "Ten Crack Commandments" },
-  { "artist": "Eric B. & Rakim", "song": "Paid In Full" },
-  { "artist": "Nas", "song": "The Message" },
-  { "artist": "Souls Of Mischief", "song": "93 ‘Til Infinity" },
-  { "artist": "Makaveli", "song": "Krazy" },
-  { "artist": "Method Man & Redman", "song": "Da Rockwilder" },
-  { "artist": "Jay-Z", "song": "Feelin’ It" },
-  { "artist": "Black Moon", "song": "I Gotcha’ Opin (Remix)" },
-  { "artist": "Snoop Dogg", "song": "Gin N’ Juice" },
-  { "artist": "Luniz", "song": "I Got 5 On I" },
-  { "artist": "Outkast", "song": "Players Ball (Original Version)" },
-  { "artist": "Nas", "song": "N.Y. State Of Mind" },
-  { "artist": "2Pac", "song": "So Many Tears" },
-  { "artist": "KRS One", "song": "MC’s Act Like They Don’t Know" },
-  { "artist": "Notorious B.I.G. feat. Method Man", "song": "The What" },
-  { "artist": "Bone Thugs-N-Harmony", "song": "Tha Crossroads" },
-  { "artist": "A Tribe Called Quest", "song": "Can I Kick It" },
-  { "artist": "Common", "song": "The 6th Sense" },
-  {
-    "artist": "Craig Mack feat. Notorious B.I.G.",
-    "song": "Flava In Ya Ear (Remix)"
-  },
-  { "artist": "Warren G", "song": "Regulate" },
-  { "artist": "Eminem", "song": "Lose Yourself" },
-  { "artist": "Method Man feat. Mary J. Blige", "song": "All I Need" },
-  { "artist": "Big Daddy Kane", "song": "Ain’t No Half Steppin’" },
-  { "artist": "Outkast", "song": "ATLiens" },
-  { "artist": "Jay-Z", "song": "99 Problems" },
-  { "artist": "2Pac", "song": "Keep Ya Head Up" },
-  { "artist": "Slick Rick", "song": "Children’s Story" },
-  { "artist": "GZA Genius feat. Method Man", "song": "Shadowboxin’" },
-  { "artist": "Mos Def", "song": "Mathematics" },
-  { "artist": "Pharcyde", "song": "Passing Me By" },
-  { "artist": "Notorious B.I.G.", "song": "Things Done Changed" },
-  { "artist": "Nas", "song": "Memory Lane (Sittin’ In Da Park)" },
-  {
-    "artist": "Pharoahe Monch feat. Common & Talib Kweli",
-    "song": "The Truth"
-  },
-  { "artist": "Naughty By Nature", "song": "Hip Hop Hooray" },
-  { "artist": "Big L", "song": "Put It On" },
-  { "artist": "MC Eiht", "song": "Streiht Up Menace" },
-  { "artist": "Lord Finesse", "song": "Hip 2 Da Game" },
-  {
-    "artist": "Crooklyn Dodgers ’95",
-    "song": "Return Of The Crooklyn Dodgers"
-  },
-  { "artist": "Dead Prez", "song": "It’s Bigger Than Hip Hop" },
-  { "artist": "Kool G Rap", "song": "I’ll Street Blues" },
-  { "artist": "Dr. Dre", "song": "Keep Their Heads Ringin’" },
-  { "artist": "LL Cool J", "song": "Around The Way Girl" },
-  { "artist": "2Pac", "song": "Pour Out A Little Liquor" },
-  { "artist": "Gang Starr", "song": "Mass Appeal" },
-  { "artist": "Nas", "song": "One Mic" },
-  { "artist": "Notorious B.I.G.", "song": "Big Poppa" },
-  { "artist": "Warren G", "song": "This DJ" },
-  { "artist": "Ice Cube", "song": "Today Was A Good Day" },
-  { "artist": "AZ", "song": "Rather Unique" },
-  { "artist": "Raekwon", "song": "Heaven & Hell" },
-  { "artist": "Jay-Z", "song": "D’ Evils" },
-  { "artist": "Big Pun", "song": "You Ain’t A Killer" },
-  { "artist": "A Tribe Called Quest", "song": "We’ve Got The Jazz" },
-  { "artist": "Black Sheep", "song": "The Choice Is Yours" },
-  { "artist": "Slug", "song": "God’s Bathroom Floor" },
-  { "artist": "2pac feat. Scarface", "song": "Smile" },
-  { "artist": "Mobb Deep", "song": "Quiet Storm" },
-  { "artist": "Ahmad", "song": "Back In The Day" },
-  { "artist": "Public Enemy", "song": "Welcome To The Terrordome" },
-  { "artist": "Zion I", "song": "Let It Flow ft. The Grouch" },
-  { "artist": "Killah Priest feat. Tekitha & Hell", "song": "One Step" },
-  { "artist": "The Roots", "song": "What They Do" },
-  { "artist": "Blackstreet feat. Dr. Dre & Foxy Brown", "song": "No Diggity" },
-  { "artist": "UGK", "song": "Ridin’ Dirty" },
-  { "artist": "AZ feat. Nas", "song": "Life’s A Bitch" },
-  { "artist": "DMX", "song": "Ruff Ryder’s Anthem" },
-  { "artist": "Ghostface Killah", "song": "Mighty Healthy" },
-  { "artist": "Blackstar feat. Common", "song": "Respiration" },
-  {
-    "artist": "Bone Thugs-N-Harmony feat. Notorious B.I.G.",
-    "song": "Notorious Thugz"
-  },
-  { "artist": "Scarface feat. Ice Cube", "song": "Hand Of The Dead Body" },
-  { "artist": "Wu-Tang Clan", "song": "Protect Ya Neck" },
-  { "artist": "Outkast", "song": "Southernplayalisticadillacmuzik" },
-  { "artist": "Brand Nubians", "song": "Slow Down" },
-  { "artist": "Lost Boyz", "song": "Renee (Remix)" },
-  { "artist": "2Pac", "song": "Brenda’s Got A Baby" },
-  { "artist": "Binary Star", "song": "Reality Check" },
-  { "artist": "NWA", "song": "Fuck Tha Police" },
-  { "artist": "Paperboy", "song": "Ditty" },
-  { "artist": "Black Moon", "song": "Who Got Da Props" },
-  { "artist": "Dj Jazzy Jeff & The Fresh Prince", "song": "Summertime" },
-  { "artist": "UGK", "song": "One Day Your Here, Then Your Gone" },
-  { "artist": "Brother Ali", "song": "Uncle Sam Goddamn" },
-  { "artist": "GZA Genius feat. Ghostface Killah", "song": "4th Chamber" },
-  { "artist": "Common", "song": "I Used To Love H.E.R." },
-  { "artist": "Dilated Peoples", "song": "Worst Comes To Worst" },
-  { "artist": "Raekwon feat. Wu-Tang", "song": "Ice Cream" },
-  { "artist": "O.C.", "song": "Time’s Up" },
-  { "artist": "2Pac", "song": "I Get Around" },
-  { "artist": "Audio Two", "song": "Top Billin’" },
-  { "artist": "Nas", "song": "It Ain’t Hard To Tell" },
-  { "artist": "Jay-Z", "song": "Dead Presidents (Original)" },
-  { "artist": "Notorious B.I.G.", "song": "I Got A Story To Tell" },
-  { "artist": "Artifacts", "song": "Wrong Side Of The Tracks" },
-  { "artist": "Big Daddy Kane", "song": "Smooth Operator" },
-  { "artist": "Funkdoobiest", "song": "Rock On" },
-  { "artist": "Crooklyn Dodgers", "song": "Crooklyn" },
-  { "artist": "Mos Def", "song": "Ms. Fat Booty" },
-  { "artist": "Eric B. & Rakim", "song": "Don’t Sweat The Technique" },
-  { "artist": "MOP", "song": "Ante Up" },
-  { "artist": "Naughty By Nature", "song": "O.P.P." },
-  { "artist": "2Pac feat. Dr. Dre", "song": "California Love (Remix)" },
-  { "artist": "Snoop Dogg", "song": "What’s My Name" },
-  { "artist": "De La Soul", "song": "Me, Myself & I" },
-  { "artist": "EPMD", "song": "You Gots To Chill" },
-  { "artist": "CNN Capone N’ Noreaga feat. Nas", "song": "Calm Down" },
-  { "artist": "Do Or Die", "song": "Po’ Pimp" },
-  { "artist": "Big Daddy Kane", "song": "Warm It Up, Kane" },
-  { "artist": "DMX", "song": "Slippin’" },
-  { "artist": "Beanie Sigel", "song": "Feel It In The Air" },
-  { "artist": "Gang Starr", "song": "Take It Personal" },
-  { "artist": "Nas", "song": "Represent" },
-  { "artist": "Wu-Tang Clan", "song": "Triumph" },
-  { "artist": "Blu and Exile", "song": "Cold Hearted" },
-  { "artist": "Dr. Dre feat. Eminem", "song": "Forgot About Dre" },
-  { "artist": "Jeru The Damaja", "song": "Come Clean" },
-  { "artist": "Run DMC", "song": "It’s Tricky" },
-  { "artist": "OutKast", "song": "Rosa Parks" },
-  { "artist": "UGK", "song": "Hi Life" },
-  { "artist": "A Tribe Called Quest", "song": "Scenario" },
-  { "artist": "Lupe Fiasco", "song": "Daydreamin’" },
-  { "artist": "Rappin’ 4 Tay", "song": "Playaz Club" },
-  { "artist": "Sage Francis", "song": "Broken Wings" },
-  { "artist": "Too Short", "song": "I’m A Player" },
-  { "artist": "The Roots", "song": "Guns are Drawn" },
-  { "artist": "2Pac", "song": "Life Goes On" },
-  { "artist": "Scarface feat. Nas & T-Boz", "song": "In Between Us" },
-  { "artist": "Eric B. & Rakim", "song": "Microphone Fiend" },
-  { "artist": "Bone Thugs-N-Harmony", "song": "1st Of The Month" },
-  { "artist": "RJD2 feat. Cunninlynguists & Masta Ace", "song": "Seasons" },
-  { "artist": "The Last Emperor", "song": "Secret Wars" },
-  {
-    "artist": "Celly Cell feat. E-40",
-    "song": "It’s Going Down Tonight (Remix)"
-  },
-  { "artist": "Talib Kweli", "song": "Get By" },
-  { "artist": "Erick Sermon feat. Marvin Gaye", "song": "Just Like Music" },
-  {
-    "artist": "Luniz feat. Too Short, Richie Rich & E-40",
-    "song": "I Got 5 On It (Remix)"
-  },
-  { "artist": "Do Or Die", "song": "Playa Like Me & You" },
-  { "artist": "Little Brother", "song": "Dreams" },
-  { "artist": "Immortal Technique", "song": "Dance With The Devil" },
-  { "artist": "Nas", "song": "Halftime" },
-  { "artist": "Big L", "song": "Ebonics" },
-  { "artist": "2Pac", "song": "Dear Mama" },
-  { "artist": "Grand Puba", "song": "I Like It" },
-  { "artist": "Digable Planets", "song": "Rebirth of Slick (Cool Like Dat)" },
-  { "artist": "Lil’ Wayne", "song": "Tha Mobb" },
-  { "artist": "Scarface", "song": "Mind Playin’ Tricks ’94" },
-  { "artist": "Dr. Dre", "song": "Let Me Ride" },
-  { "artist": "Mobb Deep feat. Nas & Raekwon", "song": "Eye For An Eye" },
-  { "artist": "Rakim", "song": "When I B On Tha Mic" },
-  {
-    "artist": "Devin The Dude feat. Snoop Dogg & Andre 3000",
-    "song": "What A Job"
+     "artist":"Ill Bill",
+     "song":"American History X"
   },
   {
-    "artist": "Nas feat. AZ, Cormega & Foxy Brown",
-    "song": "Affirmative Action"
-  },
-  { "artist": "Geto Boys", "song": "I Tried" },
-  { "artist": "A Tribe Called Quest", "song": "Bonita Applebaum" },
-  { "artist": "OutKast", "song": "Bombs Over Baghdad" },
-  {
-    "artist": "Jedi Mind Tricks feat. GZA Genius",
-    "song": "On The Eve Of War"
+     "artist":"Eminem feat. Dr. Dre",
+     "song":"Guilty Conscience"
   },
   {
-    "artist": "Snoop Doggy Dog feat. Nate Dogg, Warren G & Kurupt",
-    "song": "Ain’t No Fun"
-  },
-  { "artist": "2Pac", "song": "Bury Me A G" },
-  { "artist": "Notorious B.I.G.", "song": "Warning" },
-  { "artist": "NWA", "song": "Straight Outta Compton" },
-  { "artist": "Styles P", "song": "Good Times (I Get High)" },
-  { "artist": "Bone Thugs-N-Harmony", "song": "Foe Tha Love Of $" },
-  { "artist": "Pharoahe Monch", "song": "Queens" },
-  { "artist": "RJD2", "song": "Ghostwriter" },
-  { "artist": "OutKast", "song": "Jazzy Belle" },
-  { "artist": "Pharcyde", "song": "Runnin’" },
-  { "artist": "Dr. Dre feat. Snoop Dogg", "song": "The Next Episode" },
-  { "artist": "Jay-Z", "song": "Song Cry" },
-  { "artist": "Devin The Dude", "song": "Alright" },
-  { "artist": "2Pac", "song": "Picture Me Rollin’" },
-  { "artist": "The Firm feat. Canibus", "song": "Desperados" },
-  { "artist": "Eric B. & Rakim", "song": "Eric B. For President" },
-  { "artist": "Ariano feat. Prime", "song": "R.I.P To The Radio" },
-  {
-    "artist": "Pete Rock & CL Smooth",
-    "song": "Take You There (9th Wonder Remix)"
-  },
-  { "artist": "Eminem", "song": "Drug Ballad" },
-  { "artist": "Coolio", "song": "Gangsta’s Paradise" },
-  { "artist": "Da Brat", "song": "Funkdafied" },
-  { "artist": "Lupe Fiasco", "song": "The Coolest" },
-  { "artist": "Shyne feat. Barrington Levy", "song": "Bad Boys" },
-  { "artist": "Smiff ‘N’ Wessun", "song": "Let’s Get It On" },
-  { "artist": "Big Pun", "song": "Still Not A Player" },
-  { "artist": "2Pac", "song": "Ambitionz Az A Ridah" },
-  { "artist": "Lords of the Underground", "song": "Chief Rocka" },
-  { "artist": "Cam’Ron", "song": "Killa Cam" },
-  { "artist": "Masta Ace", "song": "Beautiful" },
-  { "artist": "Grandmaster Flash", "song": "The Message" },
-  { "artist": "Nas feat. Lauryn Hill", "song": "If I Ruled The World" },
-  { "artist": "Snoop Dogg feat. Dr. Dre", "song": "Imagine" },
-  { "artist": "Nas", "song": "Street Dreams" },
-  { "artist": "2Pac", "song": "Only God Can Judge Me" },
-  { "artist": "Jay-Z", "song": "Fallin’ (2007)" },
-  {
-    "artist": "Notorious B.I.G. feat. Faith Evans",
-    "song": "One More Chance (Remix)"
-  },
-  { "artist": "Joell Ortiz", "song": "Hip-Hop" },
-  { "artist": "Do Or Die", "song": "Still Po’ Pimpin’" },
-  { "artist": "Craig Mac", "song": "Flava In Ya Ear" },
-  { "artist": "Dr. Dre", "song": "Xxplosive (1999)" },
-  { "artist": "Geto Boys", "song": "Damn It Feels Good To Be A Gangster" },
-  { "artist": "AZ", "song": "Your World Don’t Stop" },
-  { "artist": "House Of Pain", "song": "Jump Around" },
-  { "artist": "Twista", "song": "Sunshine" },
-  { "artist": "Warren G feat. Mack 10", "song": "I Want It All" },
-  { "artist": "LL Cool J", "song": "4,3,2,1" },
-  { "artist": "Kanye West", "song": "Spaceship" },
-  { "artist": "Raekwon", "song": "Incarcerated Scarfaces" },
-  { "artist": "CNN Capone N’ Noreaga", "song": "Invincible" },
-  { "artist": "Jay-Z", "song": "Hard Knock Life (The Ghetto Anthem)" },
-  { "artist": "2Pac feat. Snoop Dogg", "song": "2 Of Amerikaz Most Wanted" },
-  { "artist": "Queen Latifah", "song": "U.N.I.T.Y." },
-  { "artist": "Blu & Exile", "song": "The World Is Below The Heavens" },
-  { "artist": "The Fugees", "song": "Ready Or Not" },
-  { "artist": "Public Enemy", "song": "Fight The Power" },
-  { "artist": "Special Ed", "song": "I Got It Made" },
-  { "artist": "Cypress Hill", "song": "How I Could Just Kill A Man" },
-  { "artist": "Eazy E", "song": "Boyz-In-The-Hood" },
-  { "artist": "Big L", "song": "Danger Zone" },
-  { "artist": "Raekwon feat. Nas", "song": "Verbal Intercourse" },
-  {
-    "artist": "A Tribe Called Quest feat. L.O.N.S.",
-    "song": "Scenario (Remix)"
-  },
-  { "artist": "Notorious B.I.G.", "song": "Machine Gun Funk" },
-  { "artist": "2Pac", "song": "Ain’t Hard 2 Find" },
-  {
-    "artist": "Jay-Z feat. Scarface & Beanie Sigel",
-    "song": "This Can’t Be Life"
-  },
-  { "artist": "Gang Starr", "song": "Code Of The Streets" },
-  {
-    "artist": "Hi-Tek feat. Donte Main Flow & Crunch",
-    "song": "Breakin’ Bread"
-  },
-  { "artist": "Common", "song": "Go" },
-  { "artist": "Snoop Dogg", "song": "Murder Was The Case" },
-  { "artist": "Method Man & Redman", "song": "How High" },
-  { "artist": "Styles P feat. Pharoahe Monch", "song": "My Life" },
-  { "artist": "Common feat. Kanye West", "song": "The Food" },
-  { "artist": "Wu-Tang Clan", "song": "Tearz" },
-  { "artist": "Living Legends", "song": "Moving At The Speed Of Life" },
-  { "artist": "Twista", "song": "Dreams" },
-  { "artist": "Mos Def", "song": "Hip-Hop" },
-  { "artist": "Devin The Dude", "song": "Just Tryin’ Ta Live" },
-  { "artist": "J-Live", "song": "Them That’s Not" },
-  {
-    "artist": "Ghostface Killah feat. Mary J. Blige",
-    "song": "All That I Got Is You"
-  },
-  { "artist": "Noreaga", "song": "Sometimes" },
-  { "artist": "Makaveli", "song": "To Live & Die In L.A" },
-  { "artist": "Eminem", "song": "Murder, Murder" },
-  { "artist": "Lil’ Wayne", "song": "Hustler Musik" },
-  { "artist": "Outkast", "song": "Elevators (Me & You)" },
-  { "artist": "A Tribe Called Quest", "song": "Stressed Out" },
-  { "artist": "Dr. Dre feat. Snoop Dogg", "song": "Deep Cover" },
-  { "artist": "Group Home", "song": "Supa Star" },
-  { "artist": "Edo G", "song": "Sayin’ Somethin’" },
-  { "artist": "Eric B. & Rakim", "song": "Lyrics Of Fury" },
-  { "artist": "Too Short", "song": "Gettin’ It" },
-  { "artist": "Dr. Dre", "song": "Still D.R.E." },
-  { "artist": "Canibus", "song": "2nd Round Knockout" },
-  { "artist": "Intelligent Hoodlum", "song": "Grand Groove" },
-  { "artist": "Mobb Deep", "song": "Survival Of The Fittest" },
-  { "artist": "2Pac", "song": "Shorty Wanna Be A Thug" },
-  { "artist": "Lupe Fiasco", "song": "Hip-Hop Saved My Life" },
-  { "artist": "De La Soul", "song": "Ego Trippin’" },
-  { "artist": "Ice Cube", "song": "100 Dollar Bill Ya’ll" },
-  { "artist": "Bone Thugs N’ Harmony feat. 2Pac", "song": "Thug Love" },
-  { "artist": "Salt N Pepa", "song": "Push It" },
-  { "artist": "Makaveli", "song": "Me & My Girlfriend" },
-  { "artist": "The Game", "song": "Dreams" },
-  { "artist": "Dj Quik", "song": "Jus Lyke Compton" },
-  { "artist": "EPMD", "song": "Da Joint" },
-  { "artist": "Naughty By Nature", "song": "Feel Me Flow" },
-  { "artist": "Scarface", "song": "Now I Feel Ya" },
-  { "artist": "Jurassic 5", "song": "Quality Control" },
-  { "artist": "MOP", "song": "How About Some Hardcore" },
-  { "artist": "Common", "song": "The Bitch in Yoo" },
-  { "artist": "Young Jeezy feat. Jay-Z & Fat Joe", "song": "Go Crazy (Remix)" },
-  { "artist": "2Pac", "song": "It Ain’t Easy" },
-  { "artist": "Common", "song": "Resurrection" },
-  { "artist": "Memphis Bleek", "song": "It’s Alright" },
-  { "artist": "Scientifik", "song": "Lawtown" },
-  { "artist": "AZ", "song": "Problems" },
-  { "artist": "Jay-Z", "song": "Can’t Knock The Hustle" },
-  { "artist": "Lil’ Troy", "song": "Wanna Be A Baller" },
-  { "artist": "Jay-Z", "song": "Regrets" },
-  { "artist": "Outkast", "song": "Two Dope Boys" },
-  { "artist": "Jay-Z feat. Too $hort", "song": "A Week Ago" },
-  { "artist": "Kanye West", "song": "All Falls Down" },
-  { "artist": "2Pac", "song": "Me Against The World" },
-  { "artist": "Beatnuts feat. Big Pun & Cuban Link", "song": "Off The Books" },
-  { "artist": "Jadakiss", "song": "Why ft. Anthony Hamilton" },
-  { "artist": "Public Enemy", "song": "Rebel Without A Pause" },
-  { "artist": "RZA", "song": "Grits" },
-  { "artist": "Hell Razah feat. Crooked I", "song": "Halos" },
-  { "artist": "Mobb Deep", "song": "Hoodlum ft. Rakim & Big Noyd" },
-  {
-    "artist": "Immortal Technique feat. Mos Def & Eminem",
-    "song": "Bin Laden"
-  },
-  { "artist": "Jay Electronica", "song": "Eternal Sunshine" },
-  { "artist": "Show & AG", "song": "Next Level" },
-  { "artist": "Cunninlynguists", "song": "Lynguistics" },
-  { "artist": "Pete Rock & CL Smooth", "song": "Straighten It Out" },
-  { "artist": "Atmosphere", "song": "Yesterday" },
-  { "artist": "Method Man", "song": "Meth vs. Chef" },
-  { "artist": "Big L", "song": "MVP" },
-  { "artist": "Raekwon", "song": "Guillotine Swordz" },
-  { "artist": "Paris", "song": "What Would You Do" },
-  { "artist": "Aesop Rock", "song": "Daylight" },
-  { "artist": "Notorious B.I.G.", "song": "Hypnotize" },
-  { "artist": "Makaveli", "song": "Hail Mary" },
-  { "artist": "Das EFX", "song": "Baknaffek" },
-  { "artist": "Aasim", "song": "Hip-Hop 101" },
-  { "artist": "Outkast", "song": "Aquemini" },
-  { "artist": "Jay-Z feat. Notorious B.I.G.", "song": "Brooklyn’s Finest" },
-  { "artist": "UGK", "song": "Pocket Full Of Stones" },
-  { "artist": "Nas", "song": "Rewind" },
-  { "artist": "The Fugees", "song": "Fu-gee-la" },
-  {
-    "artist": "GZA Genius",
-    "song": "B.I.B.L.E. (Basic Instructions Before Leaving Earth)"
-  },
-  { "artist": "DJ Cool", "song": "Let Me Clear My Throat" },
-  { "artist": "The Firm", "song": "Phone Tap" },
-  {
-    "artist": "Wu-Tang Clan",
-    "song": "Wu-Tang Clan Ain’t Nothing To Fuck Wit’"
-  },
-  { "artist": "CNN Capone N’ Noreaga", "song": "Halfway Thug" },
-  { "artist": "Mobb Deep feat. Jadakiss, Jay-Z & Nas", "song": "Win Or Lose" },
-  { "artist": "O.C.", "song": "Getaway" },
-  { "artist": "Da Bush Babees", "song": "We Run Things (Like That)" },
-  { "artist": "Lupe Fiasco", "song": "Kick, Push" },
-  { "artist": "Biz Markie", "song": "Just A Friend" },
-  { "artist": "Common", "song": "The Light" },
-  { "artist": "Fat Joe", "song": "Flow Joe" },
-  { "artist": "2Pac", "song": "Ratha Be Ya Nigga" },
-  { "artist": "Naughty By Nature", "song": "Jamboree" },
-  { "artist": "Group Home", "song": "Livin’ Proof" },
-  { "artist": "Bun B feat. Scarface & Young Jeezy", "song": "Pushin’" },
-  { "artist": "Black Moon", "song": "Reality" },
-  { "artist": "Akon feat. Styles P", "song": "Locked Up (Remix)" },
-  { "artist": "Nipsey Hussle feat. The Game", "song": "They Roll" },
-  { "artist": "Ol’ Dirty Bastard", "song": "Brooklyn Zoo" },
-  { "artist": "Brotha Lynch Hung", "song": "Refuse To Lose" },
-  { "artist": "Arrested Development", "song": "Everyday People" },
-  { "artist": "Slum Village", "song": "Reunion" },
-  { "artist": "Young Jeezy feat. Akon", "song": "Soul Survivor" },
-  { "artist": "Method Man & Redman", "song": "How High Part II" },
-  { "artist": "LL Cool J", "song": "I Need Love" },
-  { "artist": "Common", "song": "The Corner" },
-  { "artist": "Eric B. & Rakim", "song": "Mahogany" },
-  { "artist": "Jurassic 5", "song": "Concrete Schoolyard" },
-  {
-    "artist": "2Pac",
-    "song": "I Wonder If Heaven Got A Ghetto (Hip-Hop Version)"
-  },
-  { "artist": "Nas", "song": "Take It In Blood" },
-  { "artist": "The Game feat. 50 Cent", "song": "Hate It Or Love It" },
-  { "artist": "Marley Marl", "song": "The Symphony" },
-  { "artist": "OutKast", "song": "Miss Jackson" },
-  { "artist": "Killah Priest", "song": "Happy" },
-  { "artist": "DMX", "song": "The Convo" },
-  { "artist": "GZA Genius", "song": "Fame" },
-  { "artist": "Ice T", "song": "You Played Yourself" },
-  { "artist": "Devin The Dude", "song": "Right Now" },
-  { "artist": "Mobb Deep", "song": "Temperatures Rising" },
-  { "artist": "Talib Kweli feat. Morcheeba", "song": "Let Me See" },
-  { "artist": "Gang Starr", "song": "The Militia" },
-  { "artist": "Eminem", "song": "It’s Ok" },
-  { "artist": "2Pac", "song": "How Long Will They Mourn Me" },
-  { "artist": "A Tribe Called Quest", "song": "Check the Rhime" },
-  { "artist": "Jay-Z", "song": "Heart of the City (Ain’t No Love)" },
-  { "artist": "Big Daddy Kane", "song": "Set It Off" },
-  { "artist": "Blu & Exile", "song": "Narrow Path" },
-  { "artist": "E-40 feat. Suga Free", "song": "‘Til The Dawn" },
-  { "artist": "Dead Prez feat. Outlawz", "song": "Fork In The Road" },
-  { "artist": "Wu-Tang Clan", "song": "Can It Be All So Simple" },
-  { "artist": "Do Or Die feat. Twista", "song": "Paper Chase" },
-  {
-    "artist": "Outkast feat. Slick Rick",
-    "song": "Da Art Of Story Telling Part I"
-  },
-  { "artist": "Dilated Peoples", "song": "You Can’t Hide, You Can’t Run" },
-  { "artist": "Nas", "song": "One Love" },
-  { "artist": "Big L feat. 2Pac", "song": "Deadly Combination" },
-  { "artist": "Xzibit", "song": "The Foundation" },
-  { "artist": "Smiff ‘N’ Wessun", "song": "Bucktown (Remix)" },
-  { "artist": "Xzibit", "song": "Paparazzi" },
-  { "artist": "2Pac", "song": "I Ain’t Mad At Cha" },
-  { "artist": "Scarface", "song": "A Minute To Pray And A Second To Die" },
-  { "artist": "Memphis Bleek", "song": "I Get High" },
-  {
-    "artist": "Young Buck feat. The Outlawz",
-    "song": "Driving Down The Freeway"
-  },
-  { "artist": "Papoose", "song": "Born In NYC" },
-  { "artist": "Twista", "song": "Emotions" },
-  { "artist": "Sage Francis", "song": "Makeshift Patriot" },
-  { "artist": "A Tribe Called Quest", "song": "Electric Relaxation" },
-  { "artist": "Scarface feat. Z-Ro", "song": "On My Grind" },
-  { "artist": "Rakim", "song": "It’s Been A Long Time" },
-  { "artist": "LL Cool J feat. Foxy Brown & Fat Joe", "song": "I Shot Ya" },
-  { "artist": "Wu-Tang Clan", "song": "Reunited" },
-  { "artist": "Jay-Z", "song": "Encore" },
-  { "artist": "Chubb Rock", "song": "Lost In The Storm" },
-  { "artist": "Wordsworth", "song": "Shoulder" },
-  { "artist": "Eminem", "song": "Sing For The Moment" },
-  { "artist": "Bone Thugs-N-Harmony", "song": "Resurrection" },
-  { "artist": "Nas", "song": "If Heaven Was A Mile Away" },
-  {
-    "artist": "The Game feat. Marsha Of Floetry",
-    "song": "Start From Scratch"
-  },
-  { "artist": "UGK feat. Outkast", "song": "International Players Anthem" },
-  { "artist": "2Pac", "song": "Do For Love" },
-  { "artist": "Brother Ali", "song": "Forest Whitiker" },
-  { "artist": "Notorious B.I.G.", "song": "Mo Money Mo Problems" },
-  { "artist": "Lord Tariq & Peter Gunz", "song": "Deja Vu (Uptown Baby)" },
-  { "artist": "Murs feat. 9th Wonder", "song": "Yesterday & Today" },
-  { "artist": "Ghostface Killah", "song": "Iron Maiden" },
-  { "artist": "Royce Da 5’9”", "song": "I’m The King" },
-  { "artist": "Common", "song": "A Dream" },
-  { "artist": "Jay-Z", "song": "Lost Ones ft. Chrissette Michel" },
-  { "artist": "M.O.P.", "song": "Here Today Gone Tomorrow" },
-  { "artist": "Rakim", "song": "After You Die" },
-  { "artist": "50 Cent", "song": "Power Of The Dollar" },
-  { "artist": "InI", "song": "Grown Man Sport" },
-  { "artist": "OutKast", "song": "So Fresh & So Clean" },
-  { "artist": "Nas", "song": "One Time 4 Your Mind" },
-  { "artist": "Kool G Rap", "song": "Streets Of New York" },
-  { "artist": "2Pac", "song": "Lord Knows" },
-  { "artist": "Public Enemy", "song": "Black Steel In The Hour Of Chaos" },
-  { "artist": "Eminem", "song": "Brain Damage" },
-  { "artist": "De La Soul", "song": "Eye Know" },
-  {
-    "artist": "Cypress Hill",
-    "song": "Roll It Up, Light It Up, Smoke It Up (Inhale, Exhale)"
-  },
-  { "artist": "Eric B. & Rakim", "song": "Move The Crowd" },
-  { "artist": "Rob Base & Dj E-Z Rock", "song": "It Takes Two" },
-  { "artist": "DJ Quik", "song": "Tonite" },
-  { "artist": "Scarface", "song": "Mary Jane" },
-  { "artist": "Gang Starr feat. Nice ‘N Smooth", "song": "Dwyck" },
-  { "artist": "Onyx", "song": "Slam" },
-  { "artist": "One Be Lo", "song": "Propaganda" },
-  { "artist": "Common", "song": "Misunderstood" },
-  { "artist": "Memphis Bleek", "song": "Straight Path" },
-  { "artist": "2Pac", "song": "R U Still Down (Remember Me)" },
-  { "artist": "Jurassic 5", "song": "What’s Golden" },
-  { "artist": "Pharcyde", "song": "Drop" },
-  { "artist": "Method Man feat. Jonell", "song": "Round And Round" },
-  { "artist": "OutKast", "song": "Roses" },
-  { "artist": "Xzibit", "song": "What You See Is What You Get" },
-  {
-    "artist": "Junior Mafia feat. Notorious B.I.G.",
-    "song": "Player’s Anthem"
-  },
-  { "artist": "Run DMC", "song": "My Adidas" },
-  { "artist": "Ice Cube", "song": "A Bird In The Hand" },
-  { "artist": "Spice 1- Strap On The Side" },
-  { "artist": "Ill Bill", "song": "American History X" },
-  { "artist": "Eminem feat. Dr. Dre", "song": "Guilty Conscience" },
-  { "artist": "Goodie Mob feat. Outkast", "song": "Cell Therapy" },
-  { "artist": "Mac Lethal", "song": "A Cool Breeze" },
-  { "artist": "Ghostface Killah feat. The RZA", "song": "Nutmeg" },
-  { "artist": "Dead Prez", "song": "Animal in Man" },
-  { "artist": "Afrika Bambaata", "song": "Planet Rock" },
-  { "artist": "Das EFX", "song": "They Want EFX" },
-  { "artist": "Notorious B.I.G.", "song": "Unbelievable" },
-  { "artist": "Youngbloodz feat. Outkast & C-Lo", "song": "85 South" },
-  { "artist": "529. Hieroglyphics", "song": "Make Your Move" },
-  { "artist": "Mobb Deep", "song": "Hell On Earth" },
-  { "artist": "Scarface", "song": "No Tears" },
-  { "artist": "Big Mike", "song": "Playa Playa" },
-  { "artist": "Ludacris", "song": "Slap" },
-  { "artist": "2Pac", "song": "Changes" },
-  { "artist": "Large Professor", "song": "Ijuswannachill" },
-  { "artist": "Twista", "song": "Get It Wet" },
-  { "artist": "LL Cool J feat. Total", "song": "Loungin’" },
-  { "artist": "De La Soul", "song": "Stakes Is High" },
-  { "artist": "Big Pun and Fat Joe", "song": "Twinz (Deep Cover)" },
-  { "artist": "Kanye West", "song": "Through The Wire" },
-  { "artist": "Murs", "song": "The Science" },
-  { "artist": "Wu-Tang Clan", "song": "Gun Will Go" },
-  { "artist": "The Game", "song": "LAX Files" },
-  { "artist": "Mobb Deep", "song": "Still Shinin’" },
-  { "artist": "Nice and Smooth", "song": "Sometimes I Rhyme Slow" },
-  { "artist": "Special Ed", "song": "I’m The Magnificent" },
-  { "artist": "2Pac", "song": "Wonda Why They Call U Bitch" },
-  { "artist": "Do Or Die feat. Twista", "song": "Do U" },
-  { "artist": "Sugarhill Gang", "song": "Rapper’s Delight" },
-  {
-    "artist": "Keith Murray",
-    "song": "The Most Beautifullest Thing In This World"
-  },
-  { "artist": "Ludacris feat. Trick Daddy", "song": "Hopeless" },
-  { "artist": "Masta Ace", "song": "Take A Walk" },
-  { "artist": "Jeru The Damaja", "song": "Scientific Madness" },
-  { "artist": "5150", "song": "Games People Pla" },
-  { "artist": "Big Daddy Kane", "song": "Young, Black & Gifted" },
-  { "artist": "Swollen Members", "song": "Put Me On" },
-  { "artist": "Jay-Z", "song": "Moment Of Clarity" },
-  { "artist": "Public Enemy", "song": "911 Is A Joke" },
-  { "artist": "Beanie Sigel", "song": "Nothing Like It" },
-  { "artist": "2Pac", "song": "Starin’ Through My Rear View" },
-  { "artist": "Immortal Technique", "song": "Harlem Streets" },
-  { "artist": "Ol’ Dirty Bastard", "song": "Shimmy Shimmy Ya" },
-  { "artist": "Blu & Exile", "song": "Show Me the Good Life" },
-  { "artist": "Gang Starr feat. Jadakiss", "song": "Rite Where U Stand" },
-  { "artist": "Nas", "song": "You’re Da Man (2001)" },
-  {
-    "artist": "Ghostface Killah feat. Method Man, Redman, & Cappadonna",
-    "song": "Apollo Kids"
-  },
-  { "artist": "Run DMC", "song": "Rock Box" },
-  { "artist": "Jay Electronica", "song": "Exhibit C" },
-  { "artist": "Method Man feat. D’Angelo", "song": "Break Ups 2 Make Ups" },
-  {
-    "artist": "Gang Starr feat. Sticky Fingaz",
-    "song": "Full Clip (RZA Remix)"
-  },
-  { "artist": "Wiz Khalifa", "song": "Feels Good" },
-  { "artist": "Camp Lo", "song": "Sparkle" },
-  { "artist": "9th Wonder & Buckshot", "song": "Ready (Brand New Day)" },
-  { "artist": "Bishop Lamont", "song": "Grow Up" },
-  { "artist": "2Pac", "song": "All Eyez On Me" },
-  { "artist": "Geto Boys", "song": "Six Feet Deep" },
-  { "artist": "Big L feat. Jay-Z", "song": "Da Graveyard" },
-  { "artist": "Main Source feat. Nas", "song": "Live At The Barbeque" },
-  { "artist": "EPMD feat. M.O.P", "song": "The Symphony Part I" },
-  { "artist": "Notorious B.I.G. feat. Diddu", "song": "What’s Beef" },
-  { "artist": "Camp Lo", "song": "Coolie High" },
-  { "artist": "Reks", "song": "How Can It Be" },
-  { "artist": "A Tribe Called Quest", "song": "8 Millions Stories" },
-  { "artist": "Kool G Rap feat. Nas", "song": "Fast Life" },
-  { "artist": "50 Cent", "song": "Many Men (Wish Death)" },
-  { "artist": "Dr. Dre", "song": "Fuck Wit Dre Day" },
-  { "artist": "D.O.C.", "song": "Funky" },
-  { "artist": "Smif N’ Wessun", "song": "Stand Strong" },
-  { "artist": "2Pac", "song": "How Do You Want It" },
-  { "artist": "Kurtis Blow", "song": "The Breaks" },
-  { "artist": "DMX", "song": "Party Up" },
-  { "artist": "So Solid Crew", "song": "Broken Silence" },
-  { "artist": "Big L & Jay-Z", "song": "7 Minute Freestyle" },
-  { "artist": "Immortal Technique", "song": "Creation & Destruction" },
-  { "artist": "Cannibal Ox", "song": "Tippin Dominoes (RJD2 Remix)" },
-  { "artist": "Binary Star", "song": "Freakin’ Flows" },
-  {
-    "artist": "Joell Ortiz feat. Joe Budden, Royce The 5’9 & Crooked I",
-    "song": "Move On"
-  },
-  { "artist": "Kid Capri", "song": "The Apollo" },
-  { "artist": "D.I.T.C.", "song": "Day One" },
-  { "artist": "Atmosphere", "song": "If I Was Santa Clause" },
-  { "artist": "C-Bo", "song": "Stompin’ in My Steel Toes" },
-  { "artist": "Kanye West", "song": "Can’t Tell Me Nothing" },
-  { "artist": "Ice Cube", "song": "What Can I Do" },
-  { "artist": "Mobb Deep", "song": "G.O.D. III (Godfather)" },
-  { "artist": "Outkast", "song": "Claimin’ True" },
-  { "artist": "Gang Starr", "song": "Step In The Arena" },
-  { "artist": "Pharoahe Monch", "song": "Simon Says" },
-  { "artist": "Canibus", "song": "Master Thesis" },
-  { "artist": "The Coup", "song": "Laugh Love Fuck" },
-  { "artist": "Spice 1", "song": "187 He Wrote" },
-  { "artist": "Naughty By Nature", "song": "Craziest" },
-  { "artist": "Notorious B.I.G.", "song": "Going Back To Cali" },
-  { "artist": "Ghostface Killah", "song": "Cher Chez La Ghost" },
-  { "artist": "Snoop Dogg", "song": "Ups & Downs" },
-  { "artist": "Eminem feat. Royce Da 5’9′", "song": "Bad Meets Evil" },
-  { "artist": "Cypress Hill", "song": "Hits From The Bong" },
-  { "artist": "Organized Konfusion", "song": "Stray Bullet" },
-  { "artist": "Fabolous", "song": "Breathe" },
-  { "artist": "Reef The Lost Cauze", "song": "Sound Of Philadelphia" },
-  { "artist": "Devin The Dude", "song": "Doobie Ashtray" },
-  { "artist": "O.C.", "song": "Word…Life" },
-  { "artist": "Raekwon feat. Lyfe Jennings", "song": "Catalina" },
-  { "artist": "Shyne feat. Barrington Levy", "song": "Bonnie N’ Shyne" },
-  { "artist": "Eric B. & Rakim", "song": "I Know You Got Soul" },
-  { "artist": "Black Moon", "song": "Black Smif ‘N Wesson" },
-  { "artist": "Run DMC", "song": "King Of Rock" },
-  { "artist": "Lost Boyz", "song": "Me & My Crazy World" },
-  { "artist": "Eminem", "song": "Superman" },
-  { "artist": "Dead Prez", "song": "They Schools" },
-  { "artist": "Mobb Deep", "song": "Get Away" },
-  { "artist": "9th Wonder and Buckshot", "song": "Food For Thought" },
-  { "artist": "Immortal Technique", "song": "The Point Of No Return" },
-  { "artist": "Viktor Vaughn feat. Apani B", "song": "Let Me Watch" },
-  { "artist": "Dj Quik feat. Nate Dogg", "song": "Black Mercedes" },
-  { "artist": "E-40", "song": "Hope I Don’t Go Back" },
-  { "artist": "Makaveli", "song": "Hold Ya Head" },
-  { "artist": "Common feat. Dwele", "song": "People" },
-  { "artist": "D12", "song": "Fight Music" },
-  { "artist": "Murs", "song": "Walk Like A Man" },
-  { "artist": "Notorious B.I.G. feat. Total", "song": "Can’t You See" },
-  { "artist": "Bone Thugs-N-Harmony", "song": "East 1999" },
-  { "artist": "Lauryn Hill", "song": "Doo Wop! That Thing" },
-  { "artist": "Method Man & Redman", "song": "Cereal Killer" },
-  { "artist": "Birdman feat. Lil Wayne", "song": "Neck Of The Woods" },
-  { "artist": "Jedi Mind Tricks", "song": "I Against I" },
-  { "artist": "The Last Emperor", "song": "Meditation" },
-  { "artist": "The Game", "song": "Westside Story" },
-  { "artist": "Eminem", "song": "Rock Bottom" },
-  { "artist": "DMX feat. Method Man & Nas & Ja Rule", "song": "Grand Finale" },
-  { "artist": "Ja Rule", "song": "Only Begotten Son" },
-  { "artist": "Cypress Hill", "song": "Hand On The Pump" },
-  { "artist": "Jay Electronica", "song": "Exhibit A" },
-  { "artist": "Nick Cannon feat. Anthony Hamilton", "song": "Can I Live" },
-  { "artist": "Richie Rich", "song": "Do G’s Get To Go To Heaven" },
-  { "artist": "Salt N Pepa", "song": "Shoop" },
-  { "artist": "Dj Quik feat. AMG", "song": "California" },
-  { "artist": "Nieve & Cook", "song": "Priceless Few" },
-  { "artist": "Killarmy", "song": "Wu-Renegades" },
-  { "artist": "Birdman feat. Lil’ Wayne", "song": "1st Key" },
-  { "artist": "Common", "song": "In My Own World (Check The Method)" },
-  { "artist": "Stetsasonic", "song": "Talkin’ All That Jazz" },
-  { "artist": "Scarface", "song": "Safe" },
-  { "artist": "A Tribe Called Quest", "song": "Award Tour" },
-  { "artist": "Oldominion", "song": "Parallel to Hell" },
-  { "artist": "Cunninlynguists", "song": "Beautiful Girl" },
-  { "artist": "Mac Dre & Mac Mall", "song": "Mac-A-Frama-Lama" },
-  { "artist": "Pharoahe Monch", "song": "Welcome To The Terrordome" },
-  { "artist": "Talib Kweli", "song": "Stand To The Side" },
-  { "artist": "Big Daddy Kane", "song": "Wrath Of Kane" },
-  { "artist": "Beanie Sigel", "song": "The Truth" },
-  { "artist": "Jay-Z", "song": "Never Change" },
-  { "artist": "The Roots feat. Erykah Badu", "song": "You Got Me" },
-  { "artist": "Atmosphere", "song": "Party For The Fight To Write" },
-  { "artist": "Killah Priest feat. Nas", "song": "The Saints" },
-  { "artist": "Big Mike", "song": "Burban & Impalas" },
-  { "artist": "The Game feat. Busta Rhymes", "song": "Like Father, Like Son" },
-  { "artist": "Big L", "song": "Street Struck" },
-  { "artist": "Arrested Development", "song": "Mr. Wendal" },
-  { "artist": "The Pharcyde", "song": "Otha Fish" },
-  { "artist": "The Last Emperor", "song": "Secret Wars Part II" },
-  { "artist": "A Tribe Called Quest", "song": "Buggin’ Out" },
-  { "artist": "Rick Ross", "song": "Everyday I’m Hustling" },
-  { "artist": "Jay-Z", "song": "Big Pimpin’" },
-  { "artist": "Busta Rhymes", "song": "Dangerous" },
-  { "artist": "Little Brother", "song": "All For You (2005)" },
-  { "artist": "Big Pun", "song": "It’s So Hard ft. Donnell Jones" },
-  { "artist": "Eminem feat. Nate Dogg", "song": "‘Till I Collapse" },
-  {
-    "artist": "R. A. The Rugged Man",
-    "song": "Uncommon Valor, A Vietnam Story"
-  },
-  { "artist": "Ol’ Dirty Bastard", "song": "Baby I Got Your Money" },
-  { "artist": "GZA Genius", "song": "Animal Planet" },
-  { "artist": "Method Man & Redman", "song": "Do What Ya Feel" },
-  { "artist": "2Pac", "song": "Holla At Me" },
-  {
-    "artist": "Eminem feat. Dr. Dre, Snoop Dogg, Nate Dogg & Xzibit",
-    "song": "Bitch Please II"
-  },
-  { "artist": "Cunninlynguists", "song": "616 Rewind" },
-  { "artist": "AZ", "song": "Mo Money, Mo Murder" },
-  { "artist": "Souls Of Mischief", "song": "Live & Let Live" },
-  { "artist": "Styles P feat. Floetry", "song": "I’m Black" },
-  { "artist": "Lil’ Rob", "song": "California" },
-  { "artist": "Eric B. & Rakim", "song": "Know The Ledge" },
-  { "artist": "Ghostface Killah feat. Raekwon", "song": "Motherless Child" },
-  { "artist": "DangerDoom", "song": "Sofa King" },
-  { "artist": "Devin The Dude", "song": "One Day At A Time" },
-  { "artist": "Nas feat. Prodigy", "song": "Self Conscience" },
-  {
-    "artist": "Notorious B.I.G. feat. Angela Winbush & Jay-Z",
-    "song": "I Love The Dough"
-  },
-  { "artist": "Jay Rock feat. Lil Wayne", "song": "All My Life" },
-  { "artist": "Geto Boys", "song": "World Is A Geto" },
-  { "artist": "Fredro Starr", "song": "True Colors" },
-  { "artist": "Madvillain", "song": "All Caps" },
-  { "artist": "Ludacris feat. Twista & Jagged Edge", "song": "Freaky Thangs" },
-  { "artist": "InI", "song": "Center Of Attention" },
-  { "artist": "Edo G feat. Pete Rock & Masta Ace", "song": "Wishing" },
-  {
-    "artist": "DMX feat. Drag-On, Jadakiss & Eve",
-    "song": "Ruff Ryders Anthem (Remix)"
-  },
-  { "artist": "Johnson & Jonson feat. John Lennon", "song": "Hold On John" },
-  { "artist": "Smif N’ Wessun", "song": "Keep It Moving" },
-  { "artist": "Public Enemy", "song": "He Got Game" },
-  { "artist": "The Jacka feat. Mistah F.A.B.", "song": "Callin’ My Name" },
-  { "artist": "Naughty By Nature feat. Big Pun", "song": "We Could Do It" },
-  { "artist": "Living Legends", "song": "Never Falling Down" },
-  { "artist": "Kidz In The Hall", "song": "Wheelz Fall Off" },
-  { "artist": "M.O.P.", "song": "Cold As Ice" },
-  { "artist": "Talib Kweli", "song": "Where Do We Go" },
-  { "artist": "Jurassic 5", "song": "Freedom" },
-  {
-    "artist": "Raekwon feat. Ghostface Killah, Method Man & RZA",
-    "song": "Wu-Gambinos"
-  },
-  { "artist": "Hieroglyphics feat. Goapele", "song": "Soweto" },
-  {
-    "artist": "Eightball & MJG feat. Notorious B.I.G. & Project Pat",
-    "song": "Relax And Take Notes"
-  },
-  { "artist": "Ghostface Killah", "song": "One" },
-  { "artist": "Big Daddy Kane", "song": "Raw" },
-  { "artist": "The Alchemist feat. Maxwell & Twista", "song": "Smile" },
-  { "artist": "2Pac", "song": "Outlaw" },
-  { "artist": "Slum Village", "song": "Look Of Love (9th Wonder Re-Remix)" },
-  { "artist": "Scarface feat. Nas", "song": "Favor For A Favor" },
-  { "artist": "Mac Mall", "song": "Lets Get A Telly" },
-  { "artist": "LL Cool J feat. Boyz II Men", "song": "Hey Lover" },
-  { "artist": "Eric B. & Rakim", "song": "Follow the Leader" },
-  { "artist": "Jadakiss feat. Nate Dogg", "song": "Kiss Is Spitting" },
-  { "artist": "Nas", "song": "Get Down" },
-  { "artist": "Ras Kass", "song": "Soul On Ice (Remix)" },
-  { "artist": "Method Man", "song": "Even If" },
-  { "artist": "Immortal Technique", "song": "Land Of The Gun" },
-  { "artist": "Drake feat. Trey Songz & Lil Wayne", "song": "Successful" },
-  { "artist": "Big L", "song": "Fall Back" },
-  { "artist": "Busta Rhymes", "song": "Break Ya Neck" },
-  { "artist": "Zion I", "song": "Finger Paint" },
-  { "artist": "InI", "song": "Fakin’ Jax" },
-  { "artist": "Jay-Z", "song": "Lucifer" },
-  { "artist": "Eightball & MJG", "song": "My Homeboy’s Girlfriend" },
-  { "artist": "Cypress Hill", "song": "Insane In The Brain" },
-  { "artist": "Deep Puddle Dynamics", "song": "June 26th 1998" },
-  { "artist": "Comptons Most Wanted", "song": "Hood That Took Me Under" },
-  { "artist": "T.I.", "song": "Live In The Sky" },
-  { "artist": "2Pac feat. Nas", "song": "Thugz Mansion (Acoustic)" },
-  { "artist": "Eminem", "song": "Tonight (1996)" },
-  { "artist": "The Lox feat. Lil Kim & DMX", "song": "Money, Power, Respect" },
-  { "artist": "GZA Genius", "song": "Investigative Reports" },
-  { "artist": "The Roots", "song": "Section" },
-  { "artist": "Ghostface Killah", "song": "The Champ" },
-  { "artist": "Talib Kweli", "song": "The Blast" },
-  { "artist": "Brotha Lynch Hung", "song": "One Mo’ Pound" },
-  { "artist": "Jay-Z feat. Alicia Keys", "song": "Empire State Of Mind" },
-  { "artist": "Warren G", "song": "So Many Ways" },
-  { "artist": "Visionaries", "song": "If You Can’t Say Love" },
-  { "artist": "Notorious B.I.G. feat. 112", "song": "Sky Is The Limit" },
-  { "artist": "Devin The Dude", "song": "To Tha X-Treme" },
-  { "artist": "LL Cool J", "song": "Mama Said Knock You Out" },
-  { "artist": "Cypress Hill", "song": "Throw Your Set In The Air" },
-  { "artist": "O.C.", "song": "Born 2 Live" },
-  { "artist": "Scarface", "song": "Keep Me Down" },
-  { "artist": "Mobb Deep", "song": "Streets Raised Me" },
-  { "artist": "Atmosphere", "song": "Smart Went Crazy" },
-  { "artist": "Common", "song": "Thisisme" },
-  { "artist": "Delinquent Habits", "song": "Tres Delinquentes" },
-  { "artist": "Digital Underground", "song": "The Humpty Dance" },
-  { "artist": "Ill Bill", "song": "The Anatomy Of A School Shooting" },
-  { "artist": "Jurassic 5", "song": "Thin Line" },
-  { "artist": "Papoose", "song": "Flashback" },
-  { "artist": "Cyne", "song": "Pretty Apollo" },
-  { "artist": "DMX", "song": "We Right Here" },
-  { "artist": "Immortal Technique", "song": "Peruvian Cocaine" },
-  { "artist": "Mac Dre", "song": "Since ’84" },
-  { "artist": "Notorious B.I.G.", "song": "Ready To Die" },
-  { "artist": "K-OS", "song": "The Love Song" },
-  { "artist": "3rd Bass", "song": "The Gas Face" },
-  { "artist": "South Park Mexican", "song": "I Must Be High" },
-  { "artist": "Eminem feat. Dido", "song": "Stan" },
-  {
-    "artist": "Mobb Deep feat. The Alchemist & Nina Sky",
-    "song": "Hold You Down"
-  },
-  { "artist": "Dr. Dre", "song": "The Watcher" },
-  { "artist": "The Roots", "song": "The Seed (2.0)" },
-  { "artist": "Mos Def", "song": "Summertime" },
-  { "artist": "LL Cool J", "song": "Rock The Bells" },
-  { "artist": "Lords of the Underground", "song": "Funky Child" },
-  { "artist": "KRS One", "song": "The MC" },
-  { "artist": "Busta Rhymes", "song": "Put Your Hands" },
-  { "artist": "Dj Quik feat. Jodeci", "song": "Quikstrumental" },
-  { "artist": "Ludacris", "song": "MVP" },
-  { "artist": "Lloyd Banks", "song": "I’m So Fly" },
-  { "artist": "Lord Finesse", "song": "Bad Mutha" },
-  { "artist": "Nas", "song": "I Gave You Power" },
-  { "artist": "Living Legends", "song": "Nothing Less" },
-  { "artist": "Lil’ Wayne", "song": "Walk In (2004)" },
-  { "artist": "Eric B. & Rakim", "song": "My Melody" },
-  { "artist": "2Pac", "song": "Can’t C Me" },
-  { "artist": "Jay-Z", "song": "Reservoir Dogs ft. L.O.X & Beanie Sigel" },
-  { "artist": "Big L", "song": "Platinum Plus" },
-  { "artist": "Dr. Dre", "song": "The Roach (The Chronic Outro)" },
-  { "artist": "Black Moon", "song": "How Many MC’s" },
-  { "artist": "Styles P feat. Jae Hood", "song": "Nobody Believes Me" },
-  { "artist": "Rappin’ 4 Tay feat. Too Short", "song": "Playa’s Holiday" },
-  { "artist": "Notorious B.I.G.", "song": "Respect" },
-  { "artist": "50 Cent", "song": "The Good Die Young" },
-  { "artist": "AZ", "song": "The Come Up" },
-  { "artist": "Company Flow", "song": "8 Steps To Perfection" },
-  { "artist": "King Tee", "song": "Played Like a Piano" },
-  { "artist": "Skee-Lo", "song": "I Wish" },
-  { "artist": "Keith Murray", "song": "Get Lifted" },
-  { "artist": "Killah Priest", "song": "The Offering" },
-  { "artist": "Ludacris", "song": "Georgia" },
-  { "artist": "Atmosphere", "song": "Sunshine" },
-  { "artist": "Gang Starr feat. K-Ci & Jojo", "song": "Royalty" },
-  { "artist": "DMX", "song": "I Can Feel It" },
-  { "artist": "Scarface feat. Master P", "song": "Homies & Thugs" },
-  { "artist": "The Roots feat. Musiq Soulchild", "song": "Break You Off" },
-  { "artist": "2Pac", "song": "My Block (Remix)" },
-  { "artist": "Devin The Dude", "song": "I Can’t Make It Home" },
-  { "artist": "DMX", "song": "Let Me Fly" },
-  { "artist": "Das EFX", "song": "No Diggedy" },
-  { "artist": "Defari feat. Alchemist", "song": "Lowlands Anthem" },
-  { "artist": "Promoe", "song": "Poor Lonesome Homeboy" },
-  { "artist": "Eminem", "song": "The Way I Am" },
-  { "artist": "Cypress Hill", "song": "Tequila Sunrise" },
-  { "artist": "Afu-Ra", "song": "Equality" },
-  { "artist": "Chamillionaire feat. Krayzie Bone", "song": "Ridin’" },
-  { "artist": "Talib Kweli", "song": "Hot Thing" },
-  { "artist": "Binary Star", "song": "Slang Blade" },
-  { "artist": "OutKast", "song": "The Way You Move" },
-  {
-    "artist": "Notorious B.I.G. feat. The Madd Rapper",
-    "song": "Kick In The Door"
-  },
-  { "artist": "Big L", "song": "The Big Picture" },
-  { "artist": "Tone Loc", "song": "Wild Thing" },
-  { "artist": "Akrobatik", "song": "Remind My Soul" },
-  { "artist": "Nappy Roots", "song": "AwwNaww" },
-  { "artist": "Chubb Rock", "song": "Treat ‘Em Right" },
-  { "artist": "Beanie Sigel", "song": "I Can’t Go On This Way" },
-  { "artist": "Redman", "song": "Pick It Up (1996)" },
-  { "artist": "Lupe Fiasco", "song": "Muhammad Walks (Jesus Walks Mix)" },
-  { "artist": "Cormega", "song": "American Beauty" },
-  { "artist": "T.I", "song": "Lets Get Away" },
-  { "artist": "Dilated Peoples", "song": "Work The Angles" },
-  { "artist": "LL Cool J", "song": "I’m Bad" },
-  { "artist": "Brother Ali", "song": "Take Me Home" },
-  { "artist": "Drake feat. Eminem, Kanye West & Lil Wayne", "song": "Forever" },
-  { "artist": "Jurassic 5", "song": "A Day At The Races" },
-  { "artist": "Mobb Deep", "song": "Drop A Gem On ‘Em" },
-  { "artist": "A Tribe Called Quest", "song": "We Can Get Down" },
-  { "artist": "Young Jeezy", "song": "Tear It Up" },
-  { "artist": "Common", "song": "Testify" },
-  { "artist": "Ras Kass feat. Xzibit & Saafir", "song": "3 Card Molly" },
-  { "artist": "The Beatnuts", "song": "Let Off A Couple" },
-  { "artist": "Dead Prez feat. Jay-Z", "song": "Hell Yea (Remix)" },
-  { "artist": "Do Or Die", "song": "Fantasy" },
-  { "artist": "InI", "song": "Microphonist Wanderlust" },
-  { "artist": "EPMD", "song": "Strictly Business" },
-  { "artist": "Krayzie Bone", "song": "Thug Mentality" },
-  {
-    "artist": "Puff Daddy feat. Notorious B.I.G.",
-    "song": "It’s All About The Benjamins (Remix)"
-  },
-  { "artist": "Non Phixion", "song": "Rock Stars" },
-  { "artist": "Ja Rule", "song": "Put It On Me" },
-  { "artist": "Zion I & The Grouch", "song": "Silly Puddy" },
-  { "artist": "Tela", "song": "Tired Of Ballin’" },
-  { "artist": "XV", "song": "Fall Out The Sky" },
-  { "artist": "Camp Lo", "song": "Luchini (This Is It)" },
-  { "artist": "Black Sheep", "song": "Flavor Of The Month" },
-  { "artist": "Jedi Mind Tricks feat. Killah Priest", "song": "Saviorself" },
-  {
-    "artist": "Trick Daddy feat. Cee-Lo & Big Boi",
-    "song": "‘Dro In The Wind (Remix)"
-  },
-  { "artist": "Jay-Z", "song": "Takeover" },
-  { "artist": "The Game feat. Faith Evans", "song": "Don’t Need Your Love" },
-  { "artist": "Bone Thugs-N-Harmony", "song": "Look Into My Eyes" },
-  { "artist": "GZA Genius", "song": "Cold World" },
-  { "artist": "Wu-Tang Clan feat. Raekwon & M.O.P.", "song": "I’lll Figures" },
-  { "artist": "Raekwon", "song": "Criminology" },
-  { "artist": "Mos Def feat. Dj Honda", "song": "Travellin’ Man" },
-  { "artist": "Blu & Exile", "song": "Dancing in the Rain" },
-  { "artist": "Eric B. & Rakim", "song": "I Ain’t No Joke" },
-  { "artist": "Snoop Dogg feat. Nate Dogg", "song": "Lay Low" },
-  { "artist": "Madvillain", "song": "Figaro" },
-  {
-    "artist": "Brotha Lynch Hung feat. Doomsday Productions",
-    "song": "Black Market"
+     "artist":"Goodie Mob feat. Outkast",
+     "song":"Cell Therapy"
   },
   {
-    "artist": "Notorious B.I.G. feat. R. Kelly",
-    "song": "Fucking You Tonight"
+     "artist":"Mac Lethal",
+     "song":"A Cool Breeze"
   },
   {
-    "artist": "B Real, Busta Rhymes, Coolio, LL Cool J & Method Man",
-    "song": "Hit ‘Em High"
-  },
-  { "artist": "The Last Emperor", "song": "One Life" },
-  { "artist": "2Pac", "song": "Heartz Of Men" },
-  { "artist": "D.I.T.C.", "song": "Dignified Soldiers" },
-  { "artist": "Cam’Ron feat. Prodigy", "song": "Losin’ Weight" },
-  { "artist": "Run DMC feat. Aerosmith", "song": "Walk This Way" },
-  { "artist": "Jay-Z", "song": "Can I Live" },
-  { "artist": "Mos Def", "song": "Umi Says" },
-  { "artist": "Papoose", "song": "You Made Your Choice" },
-  { "artist": "Devin The Dude", "song": "Do What You Wanna Do" },
-  { "artist": "Immortal Technique", "song": "You Never Know" },
-  {
-    "artist": "Consequence feat. Kanye West",
-    "song": "The Good, The Bad, The Ugly"
-  },
-  { "artist": "Snoop Dogg", "song": "Gz And Hustlas" },
-  { "artist": "Bone Thugs-N-Harmony", "song": "Budsmokers Only" },
-  { "artist": "P.S.D.", "song": "Every Damn Day I Smoke Dank" },
-  { "artist": "Paul Wall", "song": "Did I Change" },
-  { "artist": "Funkdoobiest", "song": "Lost in Thought" },
-  {
-    "artist": "E Reece & Core Elements",
-    "song": "Everything (Take Me Back Remix)"
-  },
-  { "artist": "GZA Genius", "song": "Hip Hop Fury" },
-  { "artist": "Big Pun", "song": "John Blaze" },
-  { "artist": "Lil’ Wayne feat. Robin Thicke", "song": "Shoot Me Down" },
-  { "artist": "50 Cent", "song": "How To Rob A Industry Nigga" },
-  { "artist": "Mobb Deep", "song": "Give Up The Goods (Just Step)" },
-  { "artist": "DMX", "song": "Look Thru My Eyes" },
-  { "artist": "X-Raided", "song": "Macaframalama" },
-  {
-    "artist": "Notorious B.I.G. feat. The Game & Faith Evans",
-    "song": "1970 Somethin’"
-  },
-  { "artist": "Cage", "song": "Agent Orange" },
-  { "artist": "Coolio", "song": "C U When U Get There" },
-  { "artist": "Scarface", "song": "Jesse James" },
-  { "artist": "Common feat. Bilal", "song": "U Black, Maybe" },
-  { "artist": "The Fugees", "song": "How Many Mics" },
-  { "artist": "Puff Daddy", "song": "I’ll Be Missing You" },
-  { "artist": "Rhymefest feat. Citizen Cope", "song": "Bullet" },
-  { "artist": "Dilated Peoples feat. Kanye West", "song": "This Way" },
-  { "artist": "Juvenile", "song": "Ha" },
-  { "artist": "Boot Camp Clik", "song": "And So" },
-  { "artist": "The Jaz feat. Jay-Z", "song": "The Originators" },
-  { "artist": "DangerDoom feat. Ghostface Killah", "song": "The Mask" },
-  { "artist": "Dru Down feat. Luniz", "song": "Ice Cream Man" },
-  { "artist": "T.I", "song": "Why You Wanna" },
-  { "artist": "Too Short", "song": "Freaky Tales" },
-  { "artist": "Shaggy", "song": "Angel" },
-  { "artist": "Jay-Z", "song": "Where I’m From" },
-  { "artist": "Lords of the Underground", "song": "Here Come The Lords" },
-  { "artist": "Redman", "song": "Tonight’s Da Night" },
-  { "artist": "Nice & Smooth", "song": "Funky For You" },
-  { "artist": "Drake feat. Nipsey Hussle", "song": "Killer" },
-  { "artist": "Organized Konfusion feat. O.C.", "song": "Fudge Pudge" },
-  { "artist": "The Game", "song": "Angel" },
-  { "artist": "Makaveli", "song": "Toss It Up" },
-  { "artist": "Snoop Dogg", "song": "Lodi Dodi" },
-  { "artist": "Jurassic 5 feat. Dave Matthews Band", "song": "Work it Out" },
-  { "artist": "Masta Ace", "song": "Alphabet Soup" },
-  { "artist": "Ghostface Killah", "song": "We Made It" },
-  { "artist": "MC Serch", "song": "Here It Comes" },
-  { "artist": "Bone Thugs-N-Harmony", "song": "Ecstasy" },
-  { "artist": "InI", "song": "Think Twice (2002)" },
-  { "artist": "Lil’ Kim feat. Notorious B.I.G.", "song": "Crush On You" },
-  { "artist": "Gift of Gab", "song": "The Ride Of Your Life" },
-  { "artist": "Marco Polo feat. Masta Ace", "song": "Nostalgia" },
-  { "artist": "Too Short", "song": "The Ghetto" },
-  {
-    "artist": "Bun B feat. Trey Songz, Mike Jones & Baby",
-    "song": "Hold U Down"
-  },
-  { "artist": "Group Home", "song": "Tha Realness" },
-  { "artist": "Notorious B.I.G.", "song": "Party & Bullshit" },
-  { "artist": "Lil’ Wayne feat. Jay-Z", "song": "Mr. Carter" },
-  { "artist": "Dead Prez", "song": "Mind Sex" },
-  { "artist": "Notorious B.I.G.", "song": "Who Shot Ya" },
-  { "artist": "2Pac", "song": "Letter 2 My Unborn" },
-  { "artist": "Talib Kweli", "song": "Africa Dream" },
-  { "artist": "Black Sheep", "song": "Similak Child" },
-  { "artist": "The Beatnuts", "song": "Watch Out Now" },
-  { "artist": "Ice Cube feat. Das Efx", "song": "Check Yo Self (Remix)" },
-  { "artist": "Jay-Z", "song": "Death Of Auto-Tune" },
-  { "artist": "Eminem", "song": "Open Mic" },
-  { "artist": "Jungle Brothers", "song": "Doin’ Our Own Dang" },
-  { "artist": "5150", "song": "Bump A Bitch" },
-  { "artist": "Hell Razah", "song": "AudioBiography" },
-  { "artist": "50 Cent", "song": "Ghetto Qu’ran" },
-  { "artist": "Da Brat", "song": "Give It 2 You (Remix)" },
-  { "artist": "Spice 1", "song": "Welcome To The Ghetto" },
-  { "artist": "Big Tone feat. Davina", "song": "That Good Life" },
-  { "artist": "Notorious B.I.G.", "song": "Suicidal Thoughts" },
-  { "artist": "Petey Pablo", "song": "Raise Up (2001)" },
-  { "artist": "Pharoahe Monch feat. Showtime", "song": "Desire" },
-  { "artist": "Bone Thugs-N-Harmony", "song": "Buddah Lovaz" },
-  { "artist": "Black Rob", "song": "Like Whoa" },
-  { "artist": "Sadat X feat. Common", "song": "1-9-9-9" },
-  { "artist": "RJD2", "song": "Smoke & Mirrors" },
-  { "artist": "LL Cool J", "song": "I Can’t Live Without My Radio" },
-  { "artist": "Redman", "song": "How To Roll A Blunt" },
-  { "artist": "Raekwon", "song": "Glaciers Of Ice" },
-  { "artist": "Benefit", "song": "Proceed With Caution" },
-  { "artist": "Beanie Sigel", "song": "Die" },
-  { "artist": "The Game", "song": "The Documentary" },
-  {
-    "artist": "Junior M.A.F.I.A. feat. The Notorious B.I.G.",
-    "song": "Get Money"
+     "artist":"Ghostface Killah feat. The RZA",
+     "song":"Nutmeg"
   },
   {
-    "artist": "Kidz In The Hall",
-    "song": "Driving Down The Block (West Coast Remix)"
-  },
-  { "artist": "Nas", "song": "N.I.G.G.E.R. (The Slave & The Master)" },
-  { "artist": "Mic Geronimo", "song": "Train Of Thought" },
-  { "artist": "2Pac", "song": "Heaven Ain’t Hard 2 Find" },
-  { "artist": "Heltah Skeltah", "song": "Leflaur Leflah Eshkoshka" },
-  { "artist": "Devin The Dude", "song": "I Can’t Quit" },
-  { "artist": "Jay-Z feat. Memphis Bleek", "song": "From Marcy To Hollywood" },
-  { "artist": "Nas feat. Quan", "song": "Just A Moment" },
-  { "artist": "Eve", "song": "Let Me Blow Ya Mind" },
-  { "artist": "Joell Ortiz", "song": "125 Part I (The Bio)" },
-  {
-    "artist": "Ghostface Killah feat. Raekwon & Cappadonna",
-    "song": "Daytona 500"
-  },
-  { "artist": "Run DMC", "song": "Run’s House" },
-  { "artist": "Wu-Tang Clan", "song": "M-E-T-H-O-D Man" },
-  { "artist": "Kurupt feat. Pete Rock", "song": "Yessir" },
-  { "artist": "Messy Marv & San Quinn", "song": "Smile" },
-  { "artist": "Masta Ace", "song": "Acknowledge" },
-  { "artist": "Jay-Z", "song": "Say Hello" },
-  { "artist": "Ultramagnetic MC’s", "song": "Ego Trippin’" },
-  { "artist": "Candyman", "song": "Knockin’ Boots" },
-  { "artist": "Das EFX", "song": "Real Hip Hop (Pete Rock Remix)" },
-  { "artist": "GZA Genius", "song": "Liquid Swords" },
-  { "artist": "Little Brother", "song": "Can’t Win For Losing" },
-  { "artist": "Del Tha Funkee Homosapien", "song": "Mistadobalina" },
-  { "artist": "The Roots", "song": "Act Too (Love Of My Life)" },
-  { "artist": "Notorious B.I.G. feat. 112 & Mase", "song": "Only You" },
-  { "artist": "N2Deep", "song": "Back To The Hotel" },
-  { "artist": "Nine", "song": "We Play 4 Keeps" },
-  { "artist": "Jaylib", "song": "The Red" },
-  { "artist": "Gravediggaz", "song": "Unexplained" },
-  { "artist": "Jedi Mind Tricks feat. Sean Price", "song": "Blood Runs Cold" },
-  { "artist": "Playaz Circle feat. Lil’ Wayne", "song": "Duffle Bag Boy" },
-  { "artist": "Tech N9ne feat. Eminem", "song": "Three (Unreleased)" },
-  { "artist": "LL Cool J", "song": "No Airplay" },
-  { "artist": "Macklemore & Ryan Lewis", "song": "Otherside" },
-  { "artist": "GZA Genius", "song": "Duel Of The Iron Mic" },
-  {
-    "artist": "Raekwon feat. Ghostface Killah & Cappadonna",
-    "song": "10 Bricks"
-  },
-  { "artist": "The Game feat. Lil Wayne", "song": "My Life" },
-  {
-    "artist": "Diamond D & The Psychotic Neurotics",
-    "song": "I Went For Mine"
-  },
-  { "artist": "Q-Ball & Curt Cazal", "song": "My Kinda Moves" },
-  { "artist": "T.I", "song": "What You Know" },
-  { "artist": "Viktor Vaughn", "song": "Vaudeville Villain" },
-  { "artist": "Slick Rick & Doug E Fresh", "song": "La Di Da Di" },
-  { "artist": "Scarface", "song": "On My Block" },
-  { "artist": "Drake", "song": "Fear" },
-  { "artist": "Goodie Mob", "song": "Black Ice" },
-  { "artist": "Lil’ Wayne feat. Reel", "song": "I Miss My Dawgs" },
-  { "artist": "Devin The Dude", "song": "It’s A Shame" },
-  { "artist": "Originoo Gunn Clappaz", "song": "No Fear" },
-  { "artist": "Andre Nikatina", "song": "Ayo For Yayo" },
-  { "artist": "J-Live feat. POS & Oddisee", "song": "The Upgrade" },
-  { "artist": "LA the Darkman", "song": "City Lights" },
-  { "artist": "Pharoahe Monch", "song": "Broken Heart" },
-  { "artist": "Smif ‘N Wessun", "song": "Timz ‘N Hood Chek" },
-  { "artist": "Kris Kross", "song": "Jump" },
-  { "artist": "Masta Killa", "song": "Ringing Bells" },
-  { "artist": "Prodigy", "song": "Keep It Thoro" },
-  { "artist": "2Pac", "song": "Hellrazor" },
-  { "artist": "Nelly", "song": "Ride With Me" },
-  { "artist": "Naughty By Nature", "song": "Ghetto Bastard" },
-  { "artist": "The Game", "song": "Bang Along" },
-  { "artist": "Snoop Dogg", "song": "Neva Hafta Worry" },
-  { "artist": "Saigon", "song": "The Rules" },
-  { "artist": "Royal Flush", "song": "Worldwide" },
-  { "artist": "Raekwon feat. Ghostface Killah & Method Man", "song": "New Wu" },
-  { "artist": "A Tribe Called Quest", "song": "Excursions" },
-  { "artist": "Charles Hamilton", "song": "Brooklyn Girls" },
-  { "artist": "Brother Ali", "song": "Think It Through" },
-  { "artist": "Digital Underground", "song": "The Humpty Dance" },
-  { "artist": "Slick Rick", "song": "Mona Lisa" },
-  { "artist": "Hypnotist", "song": "Eyes Wide Open" },
-  { "artist": "E-40 feat. The Click", "song": "Captain Save A Hoe" },
-  { "artist": "Outkast", "song": "West Savannah" },
-  { "artist": "Biz Markie", "song": "Vapors" },
-  { "artist": "Mack 10", "song": "The Testimony" },
-  { "artist": "J. Cole", "song": "Lights Please" },
-  { "artist": "Common", "song": "The Game" },
-  { "artist": "Blaq Poet", "song": "Ain’t Nuttin’ Changed" },
-  { "artist": "Chubb Rock", "song": "Just the Two Of Us" },
-  {
-    "artist": "Cassie feat. Busta Rhymes, Red Cafe & Day26",
-    "song": "It Must Be Love (Remix)"
-  },
-  { "artist": "Mo’ Thugs feat. Layzie & Krayzie Bone- Ghetto Cowboy" },
-  { "artist": "Mos Def feat. Talib Kweli", "song": "History" },
-  { "artist": "Crooked I feat. Akon", "song": "Dream Big" },
-  { "artist": "KRS One & Buckshot feat. Talib Kweli", "song": "Oh Really" },
-  { "artist": "Immortal Technique feat. Big Zoo", "song": "Positive Balance" },
-  {
-    "artist": "Jermaine Dupri feat. Keith Sweat",
-    "song": "Going Home With Me"
+     "artist":"Dead Prez",
+     "song":"Animal in Man"
   },
   {
-    "artist": "Hell Razah feat. Talib Kweli & Viktor Vaughn",
-    "song": "Project Jazz"
+     "artist":"Afrika Bambaata",
+     "song":"Planet Rock"
   },
-  { "artist": "Ludacris", "song": "What’s Your Fantasy" },
-  { "artist": "Shyheim", "song": "On & On" },
-  { "artist": "Kanye West", "song": "Jesus Walks" },
-  { "artist": "Do Or Die", "song": "Lil’ Ghetto Boy" },
-  { "artist": "Sir-Mix-A-Lot", "song": "Baby Got Back" },
-  { "artist": "Dolla", "song": "Georgia Nights" },
-  { "artist": "Dyme Def", "song": "Let It Be" },
-  { "artist": "Fashawn", "song": "Life As A Shorty" },
-  { "artist": "Elzhi", "song": "Motown 25" },
-  { "artist": "Kool Moe Dee", "song": "How Ya Like Me Now" },
-  { "artist": "Zion I feat. K.Flay", "song": "Coastin’" },
-  { "artist": "EPMD", "song": "Head Banger" },
-  { "artist": "Smif-N-Wessun", "song": "Sound Bwoy Burell" }
+  {
+     "artist":"Das EFX",
+     "song":"They Want EFX"
+  },
+  {
+     "artist":"Notorious B.I.G.",
+     "song":"Unbelievable"
+  },
+  {
+     "artist":"Youngbloodz feat. Outkast & C-Lo",
+     "song":"85 South"
+  },
+  {
+     "artist":"529. Hieroglyphics",
+     "song":"Make Your Move"
+  },
+  {
+     "artist":"Mobb Deep",
+     "song":"Hell On Earth"
+  },
+  {
+     "artist":"Scarface",
+     "song":"No Tears"
+  },
+  {
+     "artist":"Big Mike",
+     "song":"Playa Playa"
+  },
+  {
+     "artist":"Ludacris",
+     "song":"Slap"
+  },
+  {
+     "artist":"2Pac",
+     "song":"Changes"
+  },
+  {
+     "artist":"Large Professor",
+     "song":"Ijuswannachill"
+  },
+  {
+     "artist":"Twista",
+     "song":"Get It Wet"
+  },
+  {
+     "artist":"LL Cool J feat. Total",
+     "song":"Loungin’"
+  },
+  {
+     "artist":"De La Soul",
+     "song":"Stakes Is High"
+  },
+  {
+     "artist":"Big Pun and Fat Joe",
+     "song":"Twinz (Deep Cover)"
+  },
+  {
+     "artist":"Kanye West",
+     "song":"Through The Wire"
+  },
+  {
+     "artist":"Murs",
+     "song":"The Science"
+  },
+  {
+     "artist":"Wu-Tang Clan",
+     "song":"Gun Will Go"
+  },
+  {
+     "artist":"The Game",
+     "song":"LAX Files"
+  },
+  {
+     "artist":"Mobb Deep",
+     "song":"Still Shinin’"
+  },
+  {
+     "artist":"Nice and Smooth",
+     "song":"Sometimes I Rhyme Slow"
+  },
+  {
+     "artist":"Special Ed",
+     "song":"I’m The Magnificent"
+  },
+  {
+     "artist":"2Pac",
+     "song":"Wonda Why They Call U Bitch"
+  },
+  {
+     "artist":"Do Or Die feat. Twista",
+     "song":"Do U"
+  },
+  {
+     "artist":"Sugarhill Gang",
+     "song":"Rapper’s Delight"
+  },
+  {
+     "artist":"Keith Murray",
+     "song":"The Most Beautifullest Thing In This World"
+  },
+  {
+     "artist":"Ludacris feat. Trick Daddy",
+     "song":"Hopeless"
+  },
+  {
+     "artist":"Masta Ace",
+     "song":"Take A Walk"
+  },
+  {
+     "artist":"Jeru The Damaja",
+     "song":"Scientific Madness"
+  },
+  {
+     "artist":"5150",
+     "song":"Games People Pla"
+  },
+  {
+     "artist":"Big Daddy Kane",
+     "song":"Young, Black & Gifted"
+  },
+  {
+     "artist":"Swollen Members",
+     "song":"Put Me On"
+  },
+  {
+     "artist":"Jay-Z",
+     "song":"Moment Of Clarity"
+  },
+  {
+     "artist":"Public Enemy",
+     "song":"911 Is A Joke"
+  },
+  {
+     "artist":"Beanie Sigel",
+     "song":"Nothing Like It"
+  },
+  {
+     "artist":"2Pac",
+     "song":"Starin’ Through My Rear View"
+  },
+  {
+     "artist":"Immortal Technique",
+     "song":"Harlem Streets"
+  },
+  {
+     "artist":"Ol’ Dirty Bastard",
+     "song":"Shimmy Shimmy Ya"
+  },
+  {
+     "artist":"Blu & Exile",
+     "song":"Show Me the Good Life"
+  },
+  {
+     "artist":"Gang Starr feat. Jadakiss",
+     "song":"Rite Where U Stand"
+  },
+  {
+     "artist":"Nas",
+     "song":"You’re Da Man (2001)"
+  },
+  {
+     "artist":"Ghostface Killah feat. Method Man, Redman, & Cappadonna",
+     "song":"Apollo Kids"
+  },
+  {
+     "artist":"Run DMC",
+     "song":"Rock Box"
+  },
+  {
+     "artist":"Jay Electronica",
+     "song":"Exhibit C"
+  },
+  {
+     "artist":"Method Man feat. D’Angelo",
+     "song":"Break Ups 2 Make Ups"
+  },
+  {
+     "artist":"Gang Starr feat. Sticky Fingaz",
+     "song":"Full Clip (RZA Remix)"
+  },
+  {
+     "artist":"Wiz Khalifa",
+     "song":"Feels Good"
+  },
+  {
+     "artist":"Camp Lo",
+     "song":"Sparkle"
+  },
+  {
+     "artist":"9th Wonder & Buckshot",
+     "song":"Ready (Brand New Day)"
+  },
+  {
+     "artist":"Bishop Lamont",
+     "song":"Grow Up"
+  },
+  {
+     "artist":"2Pac",
+     "song":"All Eyez On Me"
+  },
+  {
+     "artist":"Geto Boys",
+     "song":"Six Feet Deep"
+  },
+  {
+     "artist":"Big L feat. Jay-Z",
+     "song":"Da Graveyard"
+  },
+  {
+     "artist":"Main Source feat. Nas",
+     "song":"Live At The Barbeque"
+  },
+  {
+     "artist":"EPMD feat. M.O.P",
+     "song":"The Symphony Part I"
+  },
+  {
+     "artist":"Notorious B.I.G. feat. Diddu",
+     "song":"What’s Beef"
+  },
+  {
+     "artist":"Camp Lo",
+     "song":"Coolie High"
+  },
+  {
+     "artist":"Reks",
+     "song":"How Can It Be"
+  },
+  {
+     "artist":"A Tribe Called Quest",
+     "song":"8 Millions Stories"
+  },
+  {
+     "artist":"Kool G Rap feat. Nas",
+     "song":"Fast Life"
+  },
+  {
+     "artist":"50 Cent",
+     "song":"Many Men (Wish Death)"
+  },
+  {
+     "artist":"Dr. Dre",
+     "song":"Fuck Wit Dre Day"
+  },
+  {
+     "artist":"D.O.C.",
+     "song":"Funky"
+  },
+  {
+     "artist":"Smif N’ Wessun",
+     "song":"Stand Strong"
+  },
+  {
+     "artist":"2Pac",
+     "song":"How Do You Want It"
+  },
+  {
+     "artist":"Kurtis Blow",
+     "song":"The Breaks"
+  },
+  {
+     "artist":"DMX",
+     "song":"Party Up"
+  },
+  {
+     "artist":"So Solid Crew",
+     "song":"Broken Silence"
+  },
+  {
+     "artist":"Big L & Jay-Z",
+     "song":"7 Minute Freestyle"
+  },
+  {
+     "artist":"Immortal Technique",
+     "song":"Creation & Destruction"
+  },
+  {
+     "artist":"Cannibal Ox",
+     "song":"Tippin Dominoes (RJD2 Remix)"
+  },
+  {
+     "artist":"Binary Star",
+     "song":"Freakin’ Flows"
+  },
+  {
+     "artist":"Joell Ortiz feat. Joe Budden, Royce The 5’9 & Crooked I",
+     "song":"Move On"
+  },
+  {
+     "artist":"Kid Capri",
+     "song":"The Apollo"
+  },
+  {
+     "artist":"D.I.T.C.",
+     "song":"Day One"
+  },
+  {
+     "artist":"Atmosphere",
+     "song":"If I Was Santa Clause"
+  },
+  {
+     "artist":"C-Bo",
+     "song":"Stompin’ in My Steel Toes"
+  },
+  {
+     "artist":"Kanye West",
+     "song":"Can’t Tell Me Nothing"
+  },
+  {
+     "artist":"Ice Cube",
+     "song":"What Can I Do"
+  },
+  {
+     "artist":"Mobb Deep",
+     "song":"G.O.D. III (Godfather)"
+  },
+  {
+     "artist":"Outkast",
+     "song":"Claimin’ True"
+  },
+  {
+     "artist":"Gang Starr",
+     "song":"Step In The Arena"
+  },
+  {
+     "artist":"Pharoahe Monch",
+     "song":"Simon Says"
+  },
+  {
+     "artist":"Canibus",
+     "song":"Master Thesis"
+  },
+  {
+     "artist":"The Coup",
+     "song":"Laugh Love Fuck"
+  },
+  {
+     "artist":"Spice 1",
+     "song":"187 He Wrote"
+  },
+  {
+     "artist":"Naughty By Nature",
+     "song":"Craziest"
+  },
+  {
+     "artist":"Notorious B.I.G.",
+     "song":"Going Back To Cali"
+  },
+  {
+     "artist":"Ghostface Killah",
+     "song":"Cher Chez La Ghost"
+  },
+  {
+     "artist":"Snoop Dogg",
+     "song":"Ups & Downs"
+  },
+  {
+     "artist":"Eminem feat. Royce Da 5’9′",
+     "song":"Bad Meets Evil"
+  },
+  {
+     "artist":"Cypress Hill",
+     "song":"Hits From The Bong"
+  },
+  {
+     "artist":"Organized Konfusion",
+     "song":"Stray Bullet"
+  },
+  {
+     "artist":"Fabolous",
+     "song":"Breathe"
+  },
+  {
+     "artist":"Reef The Lost Cauze",
+     "song":"Sound Of Philadelphia"
+  },
+  {
+     "artist":"Devin The Dude",
+     "song":"Doobie Ashtray"
+  },
+  {
+     "artist":"O.C.",
+     "song":"Word…Life"
+  },
+  {
+     "artist":"Raekwon feat. Lyfe Jennings",
+     "song":"Catalina"
+  },
+  {
+     "artist":"Shyne feat. Barrington Levy",
+     "song":"Bonnie N’ Shyne"
+  },
+  {
+     "artist":"Eric B. & Rakim",
+     "song":"I Know You Got Soul"
+  },
+  {
+     "artist":"Black Moon",
+     "song":"Black Smif ‘N Wesson"
+  },
+  {
+     "artist":"Run DMC",
+     "song":"King Of Rock"
+  },
+  {
+     "artist":"Lost Boyz",
+     "song":"Me & My Crazy World"
+  },
+  {
+     "artist":"Eminem",
+     "song":"Superman"
+  },
+  {
+     "artist":"Dead Prez",
+     "song":"They Schools"
+  },
+  {
+     "artist":"Mobb Deep",
+     "song":"Get Away"
+  },
+  {
+     "artist":"9th Wonder and Buckshot",
+     "song":"Food For Thought"
+  },
+  {
+     "artist":"Immortal Technique",
+     "song":"The Point Of No Return"
+  },
+  {
+     "artist":"Viktor Vaughn feat. Apani B",
+     "song":"Let Me Watch"
+  },
+  {
+     "artist":"Dj Quik feat. Nate Dogg",
+     "song":"Black Mercedes"
+  },
+  {
+     "artist":"E-40",
+     "song":"Hope I Don’t Go Back"
+  },
+  {
+     "artist":"Makaveli",
+     "song":"Hold Ya Head"
+  },
+  {
+     "artist":"Common feat. Dwele",
+     "song":"People"
+  },
+  {
+     "artist":"D12",
+     "song":"Fight Music"
+  },
+  {
+     "artist":"Murs",
+     "song":"Walk Like A Man"
+  },
+  {
+     "artist":"Notorious B.I.G. feat. Total",
+     "song":"Can’t You See"
+  },
+  {
+     "artist":"Bone Thugs-N-Harmony",
+     "song":"East 1999"
+  },
+  {
+     "artist":"Lauryn Hill",
+     "song":"Doo Wop! That Thing"
+  },
+  {
+     "artist":"Method Man & Redman",
+     "song":"Cereal Killer"
+  },
+  {
+     "artist":"Birdman feat. Lil Wayne",
+     "song":"Neck Of The Woods"
+  },
+  {
+     "artist":"Jedi Mind Tricks",
+     "song":"I Against I"
+  },
+  {
+     "artist":"The Last Emperor",
+     "song":"Meditation"
+  },
+  {
+     "artist":"The Game",
+     "song":"Westside Story"
+  },
+  {
+     "artist":"Eminem",
+     "song":"Rock Bottom"
+  },
+  {
+     "artist":"DMX feat. Method Man & Nas & Ja Rule",
+     "song":"Grand Finale"
+  },
+  {
+     "artist":"Ja Rule",
+     "song":"Only Begotten Son"
+  },
+  {
+     "artist":"Cypress Hill",
+     "song":"Hand On The Pump"
+  },
+  {
+     "artist":"Jay Electronica",
+     "song":"Exhibit A"
+  },
+  {
+     "artist":"Nick Cannon feat. Anthony Hamilton",
+     "song":"Can I Live"
+  },
+  {
+     "artist":"Richie Rich",
+     "song":"Do G’s Get To Go To Heaven"
+  },
+  {
+     "artist":"Salt N Pepa",
+     "song":"Shoop"
+  },
+  {
+     "artist":"Dj Quik feat. AMG",
+     "song":"California"
+  },
+  {
+     "artist":"Nieve & Cook",
+     "song":"Priceless Few"
+  },
+  {
+     "artist":"Killarmy",
+     "song":"Wu-Renegades"
+  },
+  {
+     "artist":"Birdman feat. Lil’ Wayne",
+     "song":"1st Key"
+  },
+  {
+     "artist":"Common",
+     "song":"In My Own World (Check The Method)"
+  },
+  {
+     "artist":"Stetsasonic",
+     "song":"Talkin’ All That Jazz"
+  },
+  {
+     "artist":"Scarface",
+     "song":"Safe"
+  },
+  {
+     "artist":"A Tribe Called Quest",
+     "song":"Award Tour"
+  },
+  {
+     "artist":"Oldominion",
+     "song":"Parallel to Hell"
+  },
+  {
+     "artist":"Cunninlynguists",
+     "song":"Beautiful Girl"
+  },
+  {
+     "artist":"Mac Dre & Mac Mall",
+     "song":"Mac-A-Frama-Lama"
+  },
+  {
+     "artist":"Pharoahe Monch",
+     "song":"Welcome To The Terrordome"
+  },
+  {
+     "artist":"Talib Kweli",
+     "song":"Stand To The Side"
+  },
+  {
+     "artist":"Big Daddy Kane",
+     "song":"Wrath Of Kane"
+  },
+  {
+     "artist":"Beanie Sigel",
+     "song":"The Truth"
+  },
+  {
+     "artist":"Jay-Z",
+     "song":"Never Change"
+  },
+  {
+     "artist":"The Roots feat. Erykah Badu",
+     "song":"You Got Me"
+  },
+  {
+     "artist":"Atmosphere",
+     "song":"Party For The Fight To Write"
+  },
+  {
+     "artist":"Killah Priest feat. Nas",
+     "song":"The Saints"
+  },
+  {
+     "artist":"Big Mike",
+     "song":"Burban & Impalas"
+  },
+  {
+     "artist":"The Game feat. Busta Rhymes",
+     "song":"Like Father, Like Son"
+  },
+  {
+     "artist":"Big L",
+     "song":"Street Struck"
+  },
+  {
+     "artist":"Arrested Development",
+     "song":"Mr. Wendal"
+  },
+  {
+     "artist":"The Pharcyde",
+     "song":"Otha Fish"
+  },
+  {
+     "artist":"The Last Emperor",
+     "song":"Secret Wars Part II"
+  },
+  {
+     "artist":"A Tribe Called Quest",
+     "song":"Buggin’ Out"
+  },
+  {
+     "artist":"Rick Ross",
+     "song":"Everyday I’m Hustling"
+  },
+  {
+     "artist":"Jay-Z",
+     "song":"Big Pimpin’"
+  },
+  {
+     "artist":"Busta Rhymes",
+     "song":"Dangerous"
+  },
+  {
+     "artist":"Little Brother",
+     "song":"All For You (2005)"
+  },
+  {
+     "artist":"Big Pun",
+     "song":"It’s So Hard ft. Donnell Jones"
+  },
+  {
+     "artist":"Eminem feat. Nate Dogg",
+     "song":"‘Till I Collapse"
+  },
+  {
+     "artist":"R. A. The Rugged Man",
+     "song":"Uncommon Valor, A Vietnam Story"
+  },
+  {
+     "artist":"Ol’ Dirty Bastard",
+     "song":"Baby I Got Your Money"
+  },
+  {
+     "artist":"GZA Genius",
+     "song":"Animal Planet"
+  },
+  {
+     "artist":"Method Man & Redman",
+     "song":"Do What Ya Feel"
+  },
+  {
+     "artist":"2Pac",
+     "song":"Holla At Me"
+  },
+  {
+     "artist":"Eminem feat. Dr. Dre, Snoop Dogg, Nate Dogg & Xzibit",
+     "song":"Bitch Please II"
+  },
+  {
+     "artist":"Cunninlynguists",
+     "song":"616 Rewind"
+  },
+  {
+     "artist":"AZ",
+     "song":"Mo Money, Mo Murder"
+  },
+  {
+     "artist":"Souls Of Mischief",
+     "song":"Live & Let Live"
+  },
+  {
+     "artist":"Styles P feat. Floetry",
+     "song":"I’m Black"
+  },
+  {
+     "artist":"Lil’ Rob",
+     "song":"California"
+  },
+  {
+     "artist":"Eric B. & Rakim",
+     "song":"Know The Ledge"
+  },
+  {
+     "artist":"Ghostface Killah feat. Raekwon",
+     "song":"Motherless Child"
+  },
+  {
+     "artist":"DangerDoom",
+     "song":"Sofa King"
+  },
+  {
+     "artist":"Devin The Dude",
+     "song":"One Day At A Time"
+  },
+  {
+     "artist":"Nas feat. Prodigy",
+     "song":"Self Conscience"
+  },
+  {
+     "artist":"Notorious B.I.G. feat. Angela Winbush & Jay-Z",
+     "song":"I Love The Dough"
+  },
+  {
+     "artist":"Jay Rock feat. Lil Wayne",
+     "song":"All My Life"
+  },
+  {
+     "artist":"Geto Boys",
+     "song":"World Is A Geto"
+  },
+  {
+     "artist":"Fredro Starr",
+     "song":"True Colors"
+  },
+  {
+     "artist":"Madvillain",
+     "song":"All Caps"
+  },
+  {
+     "artist":"Ludacris feat. Twista & Jagged Edge",
+     "song":"Freaky Thangs"
+  },
+  {
+     "artist":"InI",
+     "song":"Center Of Attention"
+  },
+  {
+     "artist":"Edo G feat. Pete Rock & Masta Ace",
+     "song":"Wishing"
+  },
+  {
+     "artist":"DMX feat. Drag-On, Jadakiss & Eve",
+     "song":"Ruff Ryders Anthem (Remix)"
+  },
+  {
+     "artist":"Johnson & Jonson feat. John Lennon",
+     "song":"Hold On John"
+  },
+  {
+     "artist":"Smif N’ Wessun",
+     "song":"Keep It Moving"
+  },
+  {
+     "artist":"Public Enemy",
+     "song":"He Got Game"
+  },
+  {
+     "artist":"The Jacka feat. Mistah F.A.B.",
+     "song":"Callin’ My Name"
+  },
+  {
+     "artist":"Naughty By Nature feat. Big Pun",
+     "song":"We Could Do It"
+  },
+  {
+     "artist":"Living Legends",
+     "song":"Never Falling Down"
+  },
+  {
+     "artist":"Kidz In The Hall",
+     "song":"Wheelz Fall Off"
+  },
+  {
+     "artist":"M.O.P.",
+     "song":"Cold As Ice"
+  },
+  {
+     "artist":"Talib Kweli",
+     "song":"Where Do We Go"
+  },
+  {
+     "artist":"Jurassic 5",
+     "song":"Freedom"
+  },
+  {
+     "artist":"Raekwon feat. Ghostface Killah, Method Man & RZA",
+     "song":"Wu-Gambinos"
+  },
+  {
+     "artist":"Hieroglyphics feat. Goapele",
+     "song":"Soweto"
+  },
+  {
+     "artist":"Eightball & MJG feat. Notorious B.I.G. & Project Pat",
+     "song":"Relax And Take Notes"
+  },
+  {
+     "artist":"Ghostface Killah",
+     "song":"One"
+  },
+  {
+     "artist":"Big Daddy Kane",
+     "song":"Raw"
+  },
+  {
+     "artist":"The Alchemist feat. Maxwell & Twista",
+     "song":"Smile"
+  },
+  {
+     "artist":"2Pac",
+     "song":"Outlaw"
+  },
+  {
+     "artist":"Slum Village",
+     "song":"Look Of Love (9th Wonder Re-Remix)"
+  },
+  {
+     "artist":"Scarface feat. Nas",
+     "song":"Favor For A Favor"
+  },
+  {
+     "artist":"Mac Mall",
+     "song":"Lets Get A Telly"
+  },
+  {
+     "artist":"LL Cool J feat. Boyz II Men",
+     "song":"Hey Lover"
+  },
+  {
+     "artist":"Eric B. & Rakim",
+     "song":"Follow the Leader"
+  },
+  {
+     "artist":"Jadakiss feat. Nate Dogg",
+     "song":"Kiss Is Spitting"
+  },
+  {
+     "artist":"Nas",
+     "song":"Get Down"
+  },
+  {
+     "artist":"Ras Kass",
+     "song":"Soul On Ice (Remix)"
+  },
+  {
+     "artist":"Method Man",
+     "song":"Even If"
+  },
+  {
+     "artist":"Immortal Technique",
+     "song":"Land Of The Gun"
+  },
+  {
+     "artist":"Drake feat. Trey Songz & Lil Wayne",
+     "song":"Successful"
+  },
+  {
+     "artist":"Big L",
+     "song":"Fall Back"
+  },
+  {
+     "artist":"Busta Rhymes",
+     "song":"Break Ya Neck"
+  },
+  {
+     "artist":"Zion I",
+     "song":"Finger Paint"
+  },
+  {
+     "artist":"InI",
+     "song":"Fakin’ Jax"
+  },
+  {
+     "artist":"Jay-Z",
+     "song":"Lucifer"
+  },
+  {
+     "artist":"Eightball & MJG",
+     "song":"My Homeboy’s Girlfriend"
+  },
+  {
+     "artist":"Cypress Hill",
+     "song":"Insane In The Brain"
+  },
+  {
+     "artist":"Deep Puddle Dynamics",
+     "song":"June 26th 1998"
+  },
+  {
+     "artist":"Comptons Most Wanted",
+     "song":"Hood That Took Me Under"
+  },
+  {
+     "artist":"T.I.",
+     "song":"Live In The Sky"
+  },
+  {
+     "artist":"2Pac feat. Nas",
+     "song":"Thugz Mansion (Acoustic)"
+  },
+  {
+     "artist":"Eminem",
+     "song":"Tonight (1996)"
+  },
+  {
+     "artist":"The Lox feat. Lil Kim & DMX",
+     "song":"Money, Power, Respect"
+  },
+  {
+     "artist":"GZA Genius",
+     "song":"Investigative Reports"
+  },
+  {
+     "artist":"The Roots",
+     "song":"Section"
+  },
+  {
+     "artist":"Ghostface Killah",
+     "song":"The Champ"
+  },
+  {
+     "artist":"Talib Kweli",
+     "song":"The Blast"
+  },
+  {
+     "artist":"Brotha Lynch Hung",
+     "song":"One Mo’ Pound"
+  },
+  {
+     "artist":"Jay-Z feat. Alicia Keys",
+     "song":"Empire State Of Mind"
+  },
+  {
+     "artist":"Warren G",
+     "song":"So Many Ways"
+  },
+  {
+     "artist":"Visionaries",
+     "song":"If You Can’t Say Love"
+  },
+  {
+     "artist":"Notorious B.I.G. feat. 112",
+     "song":"Sky Is The Limit"
+  },
+  {
+     "artist":"Devin The Dude",
+     "song":"To Tha X-Treme"
+  },
+  {
+     "artist":"LL Cool J",
+     "song":"Mama Said Knock You Out"
+  },
+  {
+     "artist":"Cypress Hill",
+     "song":"Throw Your Set In The Air"
+  },
+  {
+     "artist":"O.C.",
+     "song":"Born 2 Live"
+  },
+  {
+     "artist":"Scarface",
+     "song":"Keep Me Down"
+  },
+  {
+     "artist":"Mobb Deep",
+     "song":"Streets Raised Me"
+  },
+  {
+     "artist":"Atmosphere",
+     "song":"Smart Went Crazy"
+  },
+  {
+     "artist":"Common",
+     "song":"Thisisme"
+  },
+  {
+     "artist":"Delinquent Habits",
+     "song":"Tres Delinquentes"
+  },
+  {
+     "artist":"Digital Underground",
+     "song":"The Humpty Dance"
+  },
+  {
+     "artist":"Ill Bill",
+     "song":"The Anatomy Of A School Shooting"
+  },
+  {
+     "artist":"Jurassic 5",
+     "song":"Thin Line"
+  },
+  {
+     "artist":"Papoose",
+     "song":"Flashback"
+  },
+  {
+     "artist":"Cyne",
+     "song":"Pretty Apollo"
+  },
+  {
+     "artist":"DMX",
+     "song":"We Right Here"
+  },
+  {
+     "artist":"Immortal Technique",
+     "song":"Peruvian Cocaine"
+  },
+  {
+     "artist":"Mac Dre",
+     "song":"Since ’84"
+  },
+  {
+     "artist":"Notorious B.I.G.",
+     "song":"Ready To Die"
+  },
+  {
+     "artist":"K-OS",
+     "song":"The Love Song"
+  },
+  {
+     "artist":"3rd Bass",
+     "song":"The Gas Face"
+  },
+  {
+     "artist":"South Park Mexican",
+     "song":"I Must Be High"
+  },
+  {
+     "artist":"Eminem feat. Dido",
+     "song":"Stan"
+  },
+  {
+     "artist":"Mobb Deep feat. The Alchemist & Nina Sky",
+     "song":"Hold You Down"
+  },
+  {
+     "artist":"Dr. Dre",
+     "song":"The Watcher"
+  },
+  {
+     "artist":"The Roots",
+     "song":"The Seed (2.0)"
+  },
+  {
+     "artist":"Mos Def",
+     "song":"Summertime"
+  },
+  {
+     "artist":"LL Cool J",
+     "song":"Rock The Bells"
+  },
+  {
+     "artist":"Lords of the Underground",
+     "song":"Funky Child"
+  },
+  {
+     "artist":"KRS One",
+     "song":"The MC"
+  },
+  {
+     "artist":"Busta Rhymes",
+     "song":"Put Your Hands"
+  },
+  {
+     "artist":"Dj Quik feat. Jodeci",
+     "song":"Quikstrumental"
+  },
+  {
+     "artist":"Ludacris",
+     "song":"MVP"
+  },
+  {
+     "artist":"Lloyd Banks",
+     "song":"I’m So Fly"
+  },
+  {
+     "artist":"Lord Finesse",
+     "song":"Bad Mutha"
+  },
+  {
+     "artist":"Nas",
+     "song":"I Gave You Power"
+  },
+  {
+     "artist":"Living Legends",
+     "song":"Nothing Less"
+  },
+  {
+     "artist":"Lil’ Wayne",
+     "song":"Walk In (2004)"
+  },
+  {
+     "artist":"Eric B. & Rakim",
+     "song":"My Melody"
+  },
+  {
+     "artist":"2Pac",
+     "song":"Can’t C Me"
+  },
+  {
+     "artist":"Jay-Z",
+     "song":"Reservoir Dogs ft. L.O.X & Beanie Sigel"
+  },
+  {
+     "artist":"Big L",
+     "song":"Platinum Plus"
+  },
+  {
+     "artist":"Dr. Dre",
+     "song":"The Roach (The Chronic Outro)"
+  },
+  {
+     "artist":"Black Moon",
+     "song":"How Many MC’s"
+  },
+  {
+     "artist":"Styles P feat. Jae Hood",
+     "song":"Nobody Believes Me"
+  },
+  {
+     "artist":"Rappin’ 4 Tay feat. Too Short",
+     "song":"Playa’s Holiday"
+  },
+  {
+     "artist":"Notorious B.I.G.",
+     "song":"Respect"
+  },
+  {
+     "artist":"50 Cent",
+     "song":"The Good Die Young"
+  },
+  {
+     "artist":"AZ",
+     "song":"The Come Up"
+  },
+  {
+     "artist":"Company Flow",
+     "song":"8 Steps To Perfection"
+  },
+  {
+     "artist":"King Tee",
+     "song":"Played Like a Piano"
+  },
+  {
+     "artist":"Skee-Lo",
+     "song":"I Wish"
+  },
+  {
+     "artist":"Keith Murray",
+     "song":"Get Lifted"
+  },
+  {
+     "artist":"Killah Priest",
+     "song":"The Offering"
+  },
+  {
+     "artist":"Ludacris",
+     "song":"Georgia"
+  },
+  {
+     "artist":"Atmosphere",
+     "song":"Sunshine"
+  },
+  {
+     "artist":"Gang Starr feat. K-Ci & Jojo",
+     "song":"Royalty"
+  },
+  {
+     "artist":"DMX",
+     "song":"I Can Feel It"
+  },
+  {
+     "artist":"Scarface feat. Master P",
+     "song":"Homies & Thugs"
+  },
+  {
+     "artist":"The Roots feat. Musiq Soulchild",
+     "song":"Break You Off"
+  },
+  {
+     "artist":"2Pac",
+     "song":"My Block (Remix)"
+  },
+  {
+     "artist":"Devin The Dude",
+     "song":"I Can’t Make It Home"
+  },
+  {
+     "artist":"DMX",
+     "song":"Let Me Fly"
+  },
+  {
+     "artist":"Das EFX",
+     "song":"No Diggedy"
+  },
+  {
+     "artist":"Defari feat. Alchemist",
+     "song":"Lowlands Anthem"
+  },
+  {
+     "artist":"Promoe",
+     "song":"Poor Lonesome Homeboy"
+  },
+  {
+     "artist":"Eminem",
+     "song":"The Way I Am"
+  },
+  {
+     "artist":"Cypress Hill",
+     "song":"Tequila Sunrise"
+  },
+  {
+     "artist":"Afu-Ra",
+     "song":"Equality"
+  },
+  {
+     "artist":"Chamillionaire feat. Krayzie Bone",
+     "song":"Ridin’"
+  },
+  {
+     "artist":"Talib Kweli",
+     "song":"Hot Thing"
+  },
+  {
+     "artist":"Binary Star",
+     "song":"Slang Blade"
+  },
+  {
+     "artist":"OutKast",
+     "song":"The Way You Move"
+  },
+  {
+     "artist":"Notorious B.I.G. feat. The Madd Rapper",
+     "song":"Kick In The Door"
+  },
+  {
+     "artist":"Big L",
+     "song":"The Big Picture"
+  },
+  {
+     "artist":"Tone Loc",
+     "song":"Wild Thing"
+  },
+  {
+     "artist":"Akrobatik",
+     "song":"Remind My Soul"
+  },
+  {
+     "artist":"Nappy Roots",
+     "song":"AwwNaww"
+  },
+  {
+     "artist":"Chubb Rock",
+     "song":"Treat ‘Em Right"
+  },
+  {
+     "artist":"Beanie Sigel",
+     "song":"I Can’t Go On This Way"
+  },
+  {
+     "artist":"Redman",
+     "song":"Pick It Up (1996)"
+  },
+  {
+     "artist":"Lupe Fiasco",
+     "song":"Muhammad Walks (Jesus Walks Mix)"
+  },
+  {
+     "artist":"Cormega",
+     "song":"American Beauty"
+  },
+  {
+     "artist":"T.I",
+     "song":"Lets Get Away"
+  },
+  {
+     "artist":"Dilated Peoples",
+     "song":"Work The Angles"
+  },
+  {
+     "artist":"LL Cool J",
+     "song":"I’m Bad"
+  },
+  {
+     "artist":"Brother Ali",
+     "song":"Take Me Home"
+  },
+  {
+     "artist":"Drake feat. Eminem, Kanye West & Lil Wayne",
+     "song":"Forever"
+  },
+  {
+     "artist":"Jurassic 5",
+     "song":"A Day At The Races"
+  },
+  {
+     "artist":"Mobb Deep",
+     "song":"Drop A Gem On ‘Em"
+  },
+  {
+     "artist":"A Tribe Called Quest",
+     "song":"We Can Get Down"
+  },
+  {
+     "artist":"Young Jeezy",
+     "song":"Tear It Up"
+  },
+  {
+     "artist":"Common",
+     "song":"Testify"
+  },
+  {
+     "artist":"Ras Kass feat. Xzibit & Saafir",
+     "song":"3 Card Molly"
+  },
+  {
+     "artist":"The Beatnuts",
+     "song":"Let Off A Couple"
+  },
+  {
+     "artist":"Dead Prez feat. Jay-Z",
+     "song":"Hell Yea (Remix)"
+  },
+  {
+     "artist":"Do Or Die",
+     "song":"Fantasy"
+  },
+  {
+     "artist":"InI",
+     "song":"Microphonist Wanderlust"
+  },
+  {
+     "artist":"EPMD",
+     "song":"Strictly Business"
+  },
+  {
+     "artist":"Krayzie Bone",
+     "song":"Thug Mentality"
+  },
+  {
+     "artist":"Puff Daddy feat. Notorious B.I.G.",
+     "song":"It’s All About The Benjamins (Remix)"
+  },
+  {
+     "artist":"Non Phixion",
+     "song":"Rock Stars"
+  },
+  {
+     "artist":"Ja Rule",
+     "song":"Put It On Me"
+  },
+  {
+     "artist":"Zion I & The Grouch",
+     "song":"Silly Puddy"
+  },
+  {
+     "artist":"Tela",
+     "song":"Tired Of Ballin’"
+  },
+  {
+     "artist":"XV",
+     "song":"Fall Out The Sky"
+  },
+  {
+     "artist":"Camp Lo",
+     "song":"Luchini (This Is It)"
+  },
+  {
+     "artist":"Black Sheep",
+     "song":"Flavor Of The Month"
+  },
+  {
+     "artist":"Jedi Mind Tricks feat. Killah Priest",
+     "song":"Saviorself"
+  },
+  {
+     "artist":"Trick Daddy feat. Cee-Lo & Big Boi",
+     "song":"‘Dro In The Wind (Remix)"
+  },
+  {
+     "artist":"Jay-Z",
+     "song":"Takeover"
+  },
+  {
+     "artist":"The Game feat. Faith Evans",
+     "song":"Don’t Need Your Love"
+  },
+  {
+     "artist":"Bone Thugs-N-Harmony",
+     "song":"Look Into My Eyes"
+  },
+  {
+     "artist":"GZA Genius",
+     "song":"Cold World"
+  },
+  {
+     "artist":"Wu-Tang Clan feat. Raekwon & M.O.P.",
+     "song":"I’lll Figures"
+  },
+  {
+     "artist":"Raekwon",
+     "song":"Criminology"
+  },
+  {
+     "artist":"Mos Def feat. Dj Honda",
+     "song":"Travellin’ Man"
+  },
+  {
+     "artist":"Blu & Exile",
+     "song":"Dancing in the Rain"
+  },
+  {
+     "artist":"Eric B. & Rakim",
+     "song":"I Ain’t No Joke"
+  },
+  {
+     "artist":"Snoop Dogg feat. Nate Dogg",
+     "song":"Lay Low"
+  },
+  {
+     "artist":"Madvillain",
+     "song":"Figaro"
+  },
+  {
+     "artist":"Brotha Lynch Hung feat. Doomsday Productions",
+     "song":"Black Market"
+  },
+  {
+     "artist":"Notorious B.I.G. feat. R. Kelly",
+     "song":"Fucking You Tonight"
+  },
+  {
+     "artist":"B Real, Busta Rhymes, Coolio, LL Cool J & Method Man",
+     "song":"Hit ‘Em High"
+  },
+  {
+     "artist":"The Last Emperor",
+     "song":"One Life"
+  },
+  {
+     "artist":"2Pac",
+     "song":"Heartz Of Men"
+  },
+  {
+     "artist":"D.I.T.C.",
+     "song":"Dignified Soldiers"
+  },
+  {
+     "artist":"Cam’Ron feat. Prodigy",
+     "song":"Losin’ Weight"
+  },
+  {
+     "artist":"Run DMC feat. Aerosmith",
+     "song":"Walk This Way"
+  },
+  {
+     "artist":"Jay-Z",
+     "song":"Can I Live"
+  },
+  {
+     "artist":"Mos Def",
+     "song":"Umi Says"
+  },
+  {
+     "artist":"Papoose",
+     "song":"You Made Your Choice"
+  },
+  {
+     "artist":"Devin The Dude",
+     "song":"Do What You Wanna Do"
+  },
+  {
+     "artist":"Immortal Technique",
+     "song":"You Never Know"
+  },
+  {
+     "artist":"Consequence feat. Kanye West",
+     "song":"The Good, The Bad, The Ugly"
+  },
+  {
+     "artist":"Snoop Dogg",
+     "song":"Gz And Hustlas"
+  },
+  {
+     "artist":"Bone Thugs-N-Harmony",
+     "song":"Budsmokers Only"
+  },
+  {
+     "artist":"P.S.D.",
+     "song":"Every Damn Day I Smoke Dank"
+  },
+  {
+     "artist":"Paul Wall",
+     "song":"Did I Change"
+  },
+  {
+     "artist":"Funkdoobiest",
+     "song":"Lost in Thought"
+  },
+  {
+     "artist":"E Reece & Core Elements",
+     "song":"Everything (Take Me Back Remix)"
+  },
+  {
+     "artist":"GZA Genius",
+     "song":"Hip Hop Fury"
+  },
+  {
+     "artist":"Big Pun",
+     "song":"John Blaze"
+  },
+  {
+     "artist":"Lil’ Wayne feat. Robin Thicke",
+     "song":"Shoot Me Down"
+  },
+  {
+     "artist":"50 Cent",
+     "song":"How To Rob A Industry Nigga"
+  },
+  {
+     "artist":"Mobb Deep",
+     "song":"Give Up The Goods (Just Step)"
+  },
+  {
+     "artist":"DMX",
+     "song":"Look Thru My Eyes"
+  },
+  {
+     "artist":"X-Raided",
+     "song":"Macaframalama"
+  },
+  {
+     "artist":"Notorious B.I.G. feat. The Game & Faith Evans",
+     "song":"1970 Somethin’"
+  },
+  {
+     "artist":"Cage",
+     "song":"Agent Orange"
+  },
+  {
+     "artist":"Coolio",
+     "song":"C U When U Get There"
+  },
+  {
+     "artist":"Scarface",
+     "song":"Jesse James"
+  },
+  {
+     "artist":"Common feat. Bilal",
+     "song":"U Black, Maybe"
+  },
+  {
+     "artist":"The Fugees",
+     "song":"How Many Mics"
+  },
+  {
+     "artist":"Puff Daddy",
+     "song":"I’ll Be Missing You"
+  },
+  {
+     "artist":"Rhymefest feat. Citizen Cope",
+     "song":"Bullet"
+  },
+  {
+     "artist":"Dilated Peoples feat. Kanye West",
+     "song":"This Way"
+  },
+  {
+     "artist":"Juvenile",
+     "song":"Ha"
+  },
+  {
+     "artist":"Boot Camp Clik",
+     "song":"And So"
+  },
+  {
+     "artist":"The Jaz feat. Jay-Z",
+     "song":"The Originators"
+  },
+  {
+     "artist":"DangerDoom feat. Ghostface Killah",
+     "song":"The Mask"
+  },
+  {
+     "artist":"Dru Down feat. Luniz",
+     "song":"Ice Cream Man"
+  },
+  {
+     "artist":"T.I",
+     "song":"Why You Wanna"
+  },
+  {
+     "artist":"Too Short",
+     "song":"Freaky Tales"
+  },
+  {
+     "artist":"Shaggy",
+     "song":"Angel"
+  },
+  {
+     "artist":"Jay-Z",
+     "song":"Where I’m From"
+  },
+  {
+     "artist":"Lords of the Underground",
+     "song":"Here Come The Lords"
+  },
+  {
+     "artist":"Redman",
+     "song":"Tonight’s Da Night"
+  },
+  {
+     "artist":"Nice & Smooth",
+     "song":"Funky For You"
+  },
+  {
+     "artist":"Drake feat. Nipsey Hussle",
+     "song":"Killer"
+  },
+  {
+     "artist":"Organized Konfusion feat. O.C.",
+     "song":"Fudge Pudge"
+  },
+  {
+     "artist":"The Game",
+     "song":"Angel"
+  },
+  {
+     "artist":"Makaveli",
+     "song":"Toss It Up"
+  },
+  {
+     "artist":"Snoop Dogg",
+     "song":"Lodi Dodi"
+  },
+  {
+     "artist":"Jurassic 5 feat. Dave Matthews Band",
+     "song":"Work it Out"
+  },
+  {
+     "artist":"Masta Ace",
+     "song":"Alphabet Soup"
+  },
+  {
+     "artist":"Ghostface Killah",
+     "song":"We Made It"
+  },
+  {
+     "artist":"MC Serch",
+     "song":"Here It Comes"
+  },
+  {
+     "artist":"Bone Thugs-N-Harmony",
+     "song":"Ecstasy"
+  },
+  {
+     "artist":"InI",
+     "song":"Think Twice (2002)"
+  },
+  {
+     "artist":"Lil’ Kim feat. Notorious B.I.G.",
+     "song":"Crush On You"
+  },
+  {
+     "artist":"Gift of Gab",
+     "song":"The Ride Of Your Life"
+  },
+  {
+     "artist":"Marco Polo feat. Masta Ace",
+     "song":"Nostalgia"
+  },
+  {
+     "artist":"Too Short",
+     "song":"The Ghetto"
+  },
+  {
+     "artist":"Bun B feat. Trey Songz, Mike Jones & Baby",
+     "song":"Hold U Down"
+  },
+  {
+     "artist":"Group Home",
+     "song":"Tha Realness"
+  },
+  {
+     "artist":"Notorious B.I.G.",
+     "song":"Party & Bullshit"
+  },
+  {
+     "artist":"Lil’ Wayne feat. Jay-Z",
+     "song":"Mr. Carter"
+  },
+  {
+     "artist":"Dead Prez",
+     "song":"Mind Sex"
+  },
+  {
+     "artist":"Notorious B.I.G.",
+     "song":"Who Shot Ya"
+  },
+  {
+     "artist":"2Pac",
+     "song":"Letter 2 My Unborn"
+  },
+  {
+     "artist":"Talib Kweli",
+     "song":"Africa Dream"
+  },
+  {
+     "artist":"Black Sheep",
+     "song":"Similak Child"
+  },
+  {
+     "artist":"The Beatnuts",
+     "song":"Watch Out Now"
+  },
+  {
+     "artist":"Ice Cube feat. Das Efx",
+     "song":"Check Yo Self (Remix)"
+  },
+  {
+     "artist":"Jay-Z",
+     "song":"Death Of Auto-Tune"
+  },
+  {
+     "artist":"Eminem",
+     "song":"Open Mic"
+  },
+  {
+     "artist":"Jungle Brothers",
+     "song":"Doin’ Our Own Dang"
+  },
+  {
+     "artist":"5150",
+     "song":"Bump A Bitch"
+  },
+  {
+     "artist":"Hell Razah",
+     "song":"AudioBiography"
+  },
+  {
+     "artist":"50 Cent",
+     "song":"Ghetto Qu’ran"
+  },
+  {
+     "artist":"Da Brat",
+     "song":"Give It 2 You (Remix)"
+  },
+  {
+     "artist":"Spice 1",
+     "song":"Welcome To The Ghetto"
+  },
+  {
+     "artist":"Big Tone feat. Davina",
+     "song":"That Good Life"
+  },
+  {
+     "artist":"Notorious B.I.G.",
+     "song":"Suicidal Thoughts"
+  },
+  {
+     "artist":"Petey Pablo",
+     "song":"Raise Up (2001)"
+  },
+  {
+     "artist":"Pharoahe Monch feat. Showtime",
+     "song":"Desire"
+  },
+  {
+     "artist":"Bone Thugs-N-Harmony",
+     "song":"Buddah Lovaz"
+  },
+  {
+     "artist":"Black Rob",
+     "song":"Like Whoa"
+  },
+  {
+     "artist":"Sadat X feat. Common",
+     "song":"1-9-9-9"
+  },
+  {
+     "artist":"RJD2",
+     "song":"Smoke & Mirrors"
+  },
+  {
+     "artist":"LL Cool J",
+     "song":"I Can’t Live Without My Radio"
+  },
+  {
+     "artist":"Redman",
+     "song":"How To Roll A Blunt"
+  },
+  {
+     "artist":"Raekwon",
+     "song":"Glaciers Of Ice"
+  },
+  {
+     "artist":"Benefit",
+     "song":"Proceed With Caution"
+  },
+  {
+     "artist":"Beanie Sigel",
+     "song":"Die"
+  },
+  {
+     "artist":"The Game",
+     "song":"The Documentary"
+  },
+  {
+     "artist":"Junior M.A.F.I.A. feat. The Notorious B.I.G.",
+     "song":"Get Money"
+  },
+  {
+     "artist":"Kidz In The Hall",
+     "song":"Driving Down The Block (West Coast Remix)"
+  },
+  {
+     "artist":"Nas",
+     "song":"N.I.G.G.E.R. (The Slave & The Master)"
+  },
+  {
+     "artist":"Mic Geronimo",
+     "song":"Train Of Thought"
+  },
+  {
+     "artist":"2Pac",
+     "song":"Heaven Ain’t Hard 2 Find"
+  },
+  {
+     "artist":"Heltah Skeltah",
+     "song":"Leflaur Leflah Eshkoshka"
+  },
+  {
+     "artist":"Devin The Dude",
+     "song":"I Can’t Quit"
+  },
+  {
+     "artist":"Jay-Z feat. Memphis Bleek",
+     "song":"From Marcy To Hollywood"
+  },
+  {
+     "artist":"Nas feat. Quan",
+     "song":"Just A Moment"
+  },
+  {
+     "artist":"Eve",
+     "song":"Let Me Blow Ya Mind"
+  },
+  {
+     "artist":"Joell Ortiz",
+     "song":"125 Part I (The Bio)"
+  },
+  {
+     "artist":"Ghostface Killah feat. Raekwon & Cappadonna",
+     "song":"Daytona 500"
+  },
+  {
+     "artist":"Run DMC",
+     "song":"Run’s House"
+  },
+  {
+     "artist":"Wu-Tang Clan",
+     "song":"M-E-T-H-O-D Man"
+  },
+  {
+     "artist":"Kurupt feat. Pete Rock",
+     "song":"Yessir"
+  },
+  {
+     "artist":"Messy Marv & San Quinn",
+     "song":"Smile"
+  },
+  {
+     "artist":"Masta Ace",
+     "song":"Acknowledge"
+  },
+  {
+     "artist":"Jay-Z",
+     "song":"Say Hello"
+  },
+  {
+     "artist":"Ultramagnetic MC’s",
+     "song":"Ego Trippin’"
+  },
+  {
+     "artist":"Candyman",
+     "song":"Knockin’ Boots"
+  },
+  {
+     "artist":"Das EFX",
+     "song":"Real Hip Hop (Pete Rock Remix)"
+  },
+  {
+     "artist":"GZA Genius",
+     "song":"Liquid Swords"
+  },
+  {
+     "artist":"Little Brother",
+     "song":"Can’t Win For Losing"
+  },
+  {
+     "artist":"Del Tha Funkee Homosapien",
+     "song":"Mistadobalina"
+  },
+  {
+     "artist":"The Roots",
+     "song":"Act Too (Love Of My Life)"
+  },
+  {
+     "artist":"Notorious B.I.G. feat. 112 & Mase",
+     "song":"Only You"
+  },
+  {
+     "artist":"N2Deep",
+     "song":"Back To The Hotel"
+  },
+  {
+     "artist":"Nine",
+     "song":"We Play 4 Keeps"
+  },
+  {
+     "artist":"Jaylib",
+     "song":"The Red"
+  },
+  {
+     "artist":"Gravediggaz",
+     "song":"Unexplained"
+  },
+  {
+     "artist":"Jedi Mind Tricks feat. Sean Price",
+     "song":"Blood Runs Cold"
+  },
+  {
+     "artist":"Playaz Circle feat. Lil’ Wayne",
+     "song":"Duffle Bag Boy"
+  },
+  {
+     "artist":"Tech N9ne feat. Eminem",
+     "song":"Three (Unreleased)"
+  },
+  {
+     "artist":"LL Cool J",
+     "song":"No Airplay"
+  },
+  {
+     "artist":"Macklemore & Ryan Lewis",
+     "song":"Otherside"
+  },
+  {
+     "artist":"GZA Genius",
+     "song":"Duel Of The Iron Mic"
+  },
+  {
+     "artist":"Raekwon feat. Ghostface Killah & Cappadonna",
+     "song":"10 Bricks"
+  },
+  {
+     "artist":"The Game feat. Lil Wayne",
+     "song":"My Life"
+  },
+  {
+     "artist":"Diamond D & The Psychotic Neurotics",
+     "song":"I Went For Mine"
+  },
+  {
+     "artist":"Q-Ball & Curt Cazal",
+     "song":"My Kinda Moves"
+  },
+  {
+     "artist":"T.I",
+     "song":"What You Know"
+  },
+  {
+     "artist":"Viktor Vaughn",
+     "song":"Vaudeville Villain"
+  },
+  {
+     "artist":"Slick Rick & Doug E Fresh",
+     "song":"La Di Da Di"
+  },
+  {
+     "artist":"Scarface",
+     "song":"On My Block"
+  },
+  {
+     "artist":"Drake",
+     "song":"Fear"
+  },
+  {
+     "artist":"Goodie Mob",
+     "song":"Black Ice"
+  },
+  {
+     "artist":"Lil’ Wayne feat. Reel",
+     "song":"I Miss My Dawgs"
+  },
+  {
+     "artist":"Devin The Dude",
+     "song":"It’s A Shame"
+  },
+  {
+     "artist":"Originoo Gunn Clappaz",
+     "song":"No Fear"
+  },
+  {
+     "artist":"Andre Nikatina",
+     "song":"Ayo For Yayo"
+  },
+  {
+     "artist":"J-Live feat. POS & Oddisee",
+     "song":"The Upgrade"
+  },
+  {
+     "artist":"LA the Darkman",
+     "song":"City Lights"
+  },
+  {
+     "artist":"Pharoahe Monch",
+     "song":"Broken Heart"
+  },
+  {
+     "artist":"Smif ‘N Wessun",
+     "song":"Timz ‘N Hood Chek"
+  },
+  {
+     "artist":"Kris Kross",
+     "song":"Jump"
+  },
+  {
+     "artist":"Masta Killa",
+     "song":"Ringing Bells"
+  },
+  {
+     "artist":"Prodigy",
+     "song":"Keep It Thoro"
+  },
+  {
+     "artist":"2Pac",
+     "song":"Hellrazor"
+  },
+  {
+     "artist":"Nelly",
+     "song":"Ride With Me"
+  },
+  {
+     "artist":"Naughty By Nature",
+     "song":"Ghetto Bastard"
+  },
+  {
+     "artist":"The Game",
+     "song":"Bang Along"
+  },
+  {
+     "artist":"Snoop Dogg",
+     "song":"Neva Hafta Worry"
+  },
+  {
+     "artist":"Saigon",
+     "song":"The Rules"
+  },
+  {
+     "artist":"Royal Flush",
+     "song":"Worldwide"
+  },
+  {
+     "artist":"Raekwon feat. Ghostface Killah & Method Man",
+     "song":"New Wu"
+  },
+  {
+     "artist":"A Tribe Called Quest",
+     "song":"Excursions"
+  },
+  {
+     "artist":"Charles Hamilton",
+     "song":"Brooklyn Girls"
+  },
+  {
+     "artist":"Brother Ali",
+     "song":"Think It Through"
+  },
+  {
+     "artist":"Digital Underground",
+     "song":"The Humpty Dance"
+  },
+  {
+     "artist":"Slick Rick",
+     "song":"Mona Lisa"
+  },
+  {
+     "artist":"Hypnotist",
+     "song":"Eyes Wide Open"
+  },
+  {
+     "artist":"E-40 feat. The Click",
+     "song":"Captain Save A Hoe"
+  },
+  {
+     "artist":"Outkast",
+     "song":"West Savannah"
+  },
+  {
+     "artist":"Biz Markie",
+     "song":"Vapors"
+  },
+  {
+     "artist":"Mack 10",
+     "song":"The Testimony"
+  },
+  {
+     "artist":"J. Cole",
+     "song":"Lights Please"
+  },
+  {
+     "artist":"Common",
+     "song":"The Game"
+  },
+  {
+     "artist":"Blaq Poet",
+     "song":"Ain’t Nuttin’ Changed"
+  },
+  {
+     "artist":"Chubb Rock",
+     "song":"Just the Two Of Us"
+  },
+  {
+     "artist":"Cassie feat. Busta Rhymes, Red Cafe & Day26",
+     "song":"It Must Be Love (Remix)"
+  },
+  {
+     "artist":"Mo’ Thugs feat. Layzie & Krayzie Bone- Ghetto Cowboy"
+  },
+  {
+     "artist":"Mos Def feat. Talib Kweli",
+     "song":"History"
+  },
+  {
+     "artist":"Crooked I feat. Akon",
+     "song":"Dream Big"
+  },
+  {
+     "artist":"KRS One & Buckshot feat. Talib Kweli",
+     "song":"Oh Really"
+  },
+  {
+     "artist":"Immortal Technique feat. Big Zoo",
+     "song":"Positive Balance"
+  },
+  {
+     "artist":"Jermaine Dupri feat. Keith Sweat",
+     "song":"Going Home With Me"
+  },
+  {
+     "artist":"Hell Razah feat. Talib Kweli & Viktor Vaughn",
+     "song":"Project Jazz"
+  },
+  {
+     "artist":"Ludacris",
+     "song":"What’s Your Fantasy"
+  },
+  {
+     "artist":"Shyheim",
+     "song":"On & On"
+  },
+  {
+     "artist":"Kanye West",
+     "song":"Jesus Walks"
+  },
+  {
+     "artist":"Do Or Die",
+     "song":"Lil’ Ghetto Boy"
+  },
+  {
+     "artist":"Sir-Mix-A-Lot",
+     "song":"Baby Got Back"
+  },
+  {
+     "artist":"Dolla",
+     "song":"Georgia Nights"
+  },
+  {
+     "artist":"Dyme Def",
+     "song":"Let It Be"
+  },
+  {
+     "artist":"Fashawn",
+     "song":"Life As A Shorty"
+  },
+  {
+     "artist":"Elzhi",
+     "song":"Motown 25"
+  },
+  {
+     "artist":"Kool Moe Dee",
+     "song":"How Ya Like Me Now"
+  },
+  {
+     "artist":"Zion I feat. K.Flay",
+     "song":"Coastin’"
+  },
+  {
+     "artist":"EPMD",
+     "song":"Head Banger"
+  },
+  {
+     "artist":"Smif-N-Wessun",
+     "song":"Sound Bwoy Burell"
+  }
 ]
