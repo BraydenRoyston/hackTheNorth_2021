@@ -21,7 +21,7 @@ def split_into_lines(lyrics: str) -> List[str]:
     return result
 
 
-def get_repetition_score(lyrics: str):
+def get_avg_repetition_score(lyrics: str):
 
     lines = split_into_lines(lyrics)
 
@@ -37,7 +37,7 @@ def get_repetition_score(lyrics: str):
 
     metrics.reset_states()
 
-    metrics.update_state(tfidf_vec[0], tfidf_vec[1])
+    metrics.update_state(*tfidf_vec)
 
     vector_similarity = metrics.result().numpy()
 
