@@ -4,7 +4,7 @@
         <div class="textSpacing">
             <div class="space"></div>
             <div class="text">
-                <h1>lyricalc</h1>
+                <h1>lyricalculus</h1>
                 <h3>The hip-hop taste of a robot.</h3>
             </div>
             <div class="space"></div>
