@@ -12,7 +12,7 @@
                     v-model="lyrics"
                 >
                 </textarea>
-                <button class="submitLyrics" @click="handleClick">Calculate</button>
+                <button class="submitLyrics" @click="fetchSomething">Calculate</button>
             </div>
             <div v-if="clicked" class="result" key="2">
                 <ResultCard 
@@ -43,12 +43,18 @@ export default {
             rhyme: 0,
             semantic: 0,
             repeat: 8,
+            ip: "",
         }
     },
     methods: {
-        handleClick() {
+        async handleClick() {
             this.clicked = true;
             console.log(this.lyrics);
+
+            // API call
+            const response = await this.$axios.$get('localhost:5000');
+            console.log(response);
+
             const epsilon_up = Math.floor(Math.random() * 2);
             const episilon_down = Math.floor(Math.random() * 2);
             this.rhyme = this.repeat + epsilon_up;
