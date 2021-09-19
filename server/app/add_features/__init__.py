@@ -1,13 +1,7 @@
 import re
 import tensorflow as tf
-import functools
 import nltk
-from typing import List, Set, Dict, Tuple, Optional
-from functools import reduce
-from collections import Counter
-from nltk.sentiment import SentimentIntensityAnalyzer
-from statistics import mean
-import os
+from typing import List
 import numpy as np
 
 
