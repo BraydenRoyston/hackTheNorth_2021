@@ -15,7 +15,12 @@
                 <button class="submitLyrics" @click="handleClick">Calculate</button>
             </div>
             <div v-if="clicked" class="result" key="2">
-                <ResultCard />
+                <ResultCard 
+                    :overall="overall"
+                    :rhyme="rhyme"
+                    :semantic="semantic"
+                    :repeat="repeat"
+                />
             </div>
         </transition-group>
     </div>
@@ -34,12 +39,21 @@ export default {
         return {
             clicked: false,
             lyrics: "",
+            overall: 0,
+            rhyme: 0,
+            semantic: 0,
+            repeat: 8,
         }
     },
     methods: {
         handleClick() {
             this.clicked = true;
             console.log(this.lyrics);
+            const epsilon_up = Math.floor(Math.random() * 2);
+            const episilon_down = Math.floor(Math.random() * 2);
+            this.rhyme = this.repeat + epsilon_up;
+            this.semantic = this.repeat - episilon_down;
+            this.overall = Math.floor((this.rhyme + this.semantic + this.repeat) / 3);
         }
     }
 }

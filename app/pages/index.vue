@@ -1,22 +1,24 @@
 <template>
   <div class="rootWrapper">
     <NavBar />
-    <LandingSection />
-    <LyricsSection />
-    <HowSection />
+    <LandingSection id="landing"/>
+    <LyricsSection id="calculate"/>
+    <HowSection id="how"/>
   </div>
 </template>
 
 <script>
 import NavBar from '../components/UI/NavBar.vue';
 import LandingSection from '../components/Sections/LandingSection.vue';
-import LyricsSection from '../components/Sections/LyricsSection.vue'
+import LyricsSection from '../components/Sections/LyricsSection.vue';
+import HowSection from '../components/Sections/HowSection.vue'
 
 export default {
   components: {
     NavBar,
     LandingSection,
     LyricsSection,
+    HowSection,
   }
 }
 </script>
@@ -43,7 +45,7 @@ export default {
   --fs-large: clamp(1.5rem, calc(3vw + 1rem), 5rem);
   --fs-medium: clamp(1.1rem, calc(2vw + 0.75rem), 3.5rem);
   --fs-small: clamp(1.5rem, calc(1.5vw + 0.5rem), 2.2rem);
-  --fs-extra-small: clamp(0.75rem, calc(1vw + 0.5rem), 1.9rem);
+  --fs-extra-small: clamp(0.75rem, calc(1vw + 0.5rem), 1.5rem);
 
   --black: #051923;
   --blue: #006494;
@@ -53,5 +55,13 @@ export default {
 body {
   margin: 0;
 }
+
+/* .rootWrapper {
+  scroll-snap-type: y mandatory;
+}
+
+#landing, #calculate, #how {
+  scroll-snap-align: start;
+} */
 
 </style>

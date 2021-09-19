@@ -4,30 +4,53 @@
             <li>
                 <p class="name main-name">Overall Score</p>
                 <div class="grade main-grade">
-                    <p class="score main-score">10</p>
+                    <p class="score main-score">{{ overall }}</p>
                 </div>
             </li>
             <li>
                 <p class="name">Rhyme Score</p>
                 <div class="grade">
-                    <p class="score">10</p>
+                    <p class="score">{{ rhyme }}</p>
                 </div>
             </li>
             <li>
                 <p class="name">Semantic Score</p>
                 <div class="grade">
-                    <p class="score">10</p>
+                    <p class="score">{{ semantic }}</p>
                 </div>
             </li>
             <li>
                 <p class="name">Repetitiveness Score</p>
                 <div class="grade">
-                    <p class="score">10</p>
+                    <p class="score">{{ repeat }}</p>
                 </div>
             </li>
         </ul>
     </div>
 </template>
+
+<script>
+export default {
+    props: {
+        overall: {
+            type: Number,
+            required: true,
+        },
+        rhyme: {
+            type: Number,
+            required: true,
+        },
+        semantic: {
+            type: Number,
+            required: true,
+        },
+        repeat: {
+            type: Number,
+            required: true,
+        },
+    }
+}
+</script>
 
 
 <style scoped>

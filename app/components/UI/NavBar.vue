@@ -6,10 +6,10 @@
         <div class="nav-links">
             <ul>
                 <li>
-                    <a href="#">Try it Out</a>
+                    <a href="#calculate">Try it Out</a>
                 </li>
                 <li>
-                    <a href="#">How it Works</a>
+                    <a href="#how">How it Works</a>
                 </li>
             </ul>
         </div>
