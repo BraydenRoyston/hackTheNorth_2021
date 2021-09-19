@@ -51,7 +51,7 @@ export default {
       // API call
 
       try {
-        const response = await this.$axios.$post("http://localhost:5000", {
+        const response = await this.$axios.$post("https://flask-lyricalculus.herokuapp.com", {
           lyrics: this.lyrics,
         });
 
