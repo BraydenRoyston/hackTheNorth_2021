@@ -1,29 +1,29 @@
 <template>
-  <div class="lyrics">
-    <BarsTop id="barsTop" />
-    <transition-group id="group" name="group">
-      <div class="enterLyrics" key="1">
-        <textarea
-          name="lyrics"
-          id=""
-          cols="80"
-          rows="20"
-          placeholder="Enter the lyrics of your favourite song here!!"
-          v-model="lyrics"
-        >
-        </textarea>
-        <button class="submitLyrics" @click="handleClick">Calculate</button>
-      </div>
-      <div v-if="clicked" class="result" key="2">
-        <ResultCard
-          :overall="overall"
-          :rhyme="rhyme"
-          :semantic="semantic"
-          :repeat="repeat"
-        />
-      </div>
-    </transition-group>
-  </div>
+    <div class="lyrics">
+        <BarsTop id="barsTop"/>
+        <transition-group id="group" name="group">
+            <div class="enterLyrics" key="1">
+                <textarea 
+                    name="lyrics" 
+                    id="" 
+                    cols="80" 
+                    rows="20"
+                    placeholder="Enter the lyrics of your favourite song here!!"
+                    v-model="lyrics"
+                >
+                </textarea>
+                <button class="submitLyrics" @click="handleClick">Calculate</button>
+            </div>
+            <div v-if="clicked" class="result" key="2">
+                <ResultCard 
+                    :overall="overall"
+                    :rhyme="rhyme"
+                    :semantic="semantic"
+                    :repeat="repeat"
+                />
+            </div>
+        </transition-group>
+    </div>
 </template>
 
 <script>
