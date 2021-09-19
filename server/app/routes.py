@@ -1,107 +1,110 @@
 
 from flask.helpers import url_for
-
-from . import app, schedular, client
-from flask import request
+from flask import Flask, request, jsonify
 from werkzeug.urls import url_parse
 from datetime import datetime
-import requests
-import json
+from flask import jsonify
+from . import app
+from os.path import abspath
+
+from joblib import dump, load
 import os
+dirname = os.path.dirname(__file__)
+
+clf = load(os.path.join(dirname, './model.joblib')) 
+
+
+
 import re
-from flask import jsonify
-from .jobs.webScraper import webScrapeToJSONAndPush
-from flask import jsonify
+import functools
+import tensorflow as tf
+import nltk
+from typing import List, Set, Dict, Tuple, Optional
+from functools import reduce
+from collections import Counter
+from statistics import mean
+import os
+import numpy as np
 
 
-def newEncoder(o):
-    if type(o) == ObjectId:
-        return str(o)
-    return o.__str__
+def split_into_lines(lyrics: str) -> List[str]:
+    lines: List[str] = lyrics.splitlines()
+
+    result: List[str] = []
+
+    for line in lines:
+        if line != "":
+            result.append(str(line))
+
+    return result
 
 
-@app.route("/api")
+def filter_out_non_important(lyrics: str):
+
+    tokens = nltk.word_tokenize(lyrics)
+
+    filtered_tokens = []
+
+    for token in nltk.pos_tag(tokens):
+
+        if(re.match("[a-z|A-Z|0-9]*'", token[0])):
+            continue
+
+        if(re.match("[a-z|A-Z|0-9]*[eE]mbed", token[0])):
+            continue
+
+        if(token[0] == "[" or token[0] == "]"):
+            continue
+
+        if (token[1] == "NN" or
+            token[1] == "RB" or
+            token[1] == "VB"
+            ):
+            filtered_tokens.append(token[0])
+
+    return " ".join(str(x) for x in filtered_tokens)
+
+
+# excludes non {noun, verb, adjective}
+def get_repetition_score(lyrics: str):
+    
+    lines = split_into_lines(str(lyrics))
+
+    for index,line in enumerate(lines):
+        lines[index] =  filter_out_non_important(line)
+    
+
+    if len(lines) == 0:
+        return None
+
+    tokenizer = tf.keras.preprocessing.text.Tokenizer(
+        num_words=None,
+    )
+
+    tokenizer.fit_on_texts(lines)
+
+    tfidf_matrix = tokenizer.texts_to_matrix(lines, mode='tfidf')
+
+    return np.average(tfidf_matrix)
+
+
+def get_features(lyrics):
+    repetition_score = get_repetition_score(lyrics)
+
+    if repetition_score == None:
+        return None
+
+    
+    return np.array([[repetition_score]])
+
+
+@app.route("/", methods=['POST'])
 def index():
-    script_dir = os.path.dirname(__file__)
-    full_path = os.path.join(script_dir, 'jobs/webScraper/scrapeResults.json')
-    with open(full_path) as f:
-        data = json.load(f)
-        return jsonify(data)
+    lyrics = request.json
 
 
-@app.route("/api/tickers", methods=["GET"])  # return unique tickers
-def titles():
-    script_dir = os.path.dirname(__file__)
-    full_path = os.path.join(script_dir, 'jobs/webScraper/scrapeResults.json')
-    with open(full_path) as f:
-        data = json.load(f)
-        tickerSet = set()
-        for line in data:
-            tickerSet.add(line['stockTicker'])
+    parameter = get_features(lyrics)
 
-        retval = []
-        for item in tickerSet:
-            retval.append(item)
+    print(clf.predict_proba(parameter))
 
-        return jsonify(retval)
-
-
-@app.route("/api/live", methods=["GET"])  # return live DB
-def live():
-    headers = {'Authorization': os.environ.get('DATABASE_ACCESS_KEY')}
-    r = requests.get(os.environ.get('DATABASE_REST_API'), headers=headers)
-    return r.text
-
-
-def runAutomaticWebScrape():
-    print("---------------------------")
-    print("Running automatic webscrape")
-    print("---------------------------")
-    webScrapeToJSONAndPush()
-
-
-# add automatic task
-schedular.add_job(id='webScrapeAuto', func=runAutomaticWebScrape,
-                  trigger='interval', seconds=86400)
-
-
-def runManualWebScrape():
-    print("---------------------------")
-    print("Running manual webscrape")
-    print("---------------------------")
-    webScrapeToJSONAndPush()
-
-
-@app.route('/api/scrape')
-def manualScrape():
-    schedular.add_job(func=runManualWebScrape,
-                      trigger='date', id='webScrapeManual')
-    return "Added manual scraping to job...results will be updated in approx 30 minutes"
-
-
-@app.route("/api/ratings")
-def getAllRatings():
-    ratings = []
-
-    headers = {'Authorization': os.environ.get('DATABASE_ACCESS_KEY')}
-    r = requests.get(os.environ.get('DATABASE_REST_API'), headers=headers)
-    data = r.json()
-
-    for stock in data:
-        ratings.append(
-            {
-                "ticker": stock["ticker"],
-                "rating": stock["rating"]
-            }
-        )
-    return jsonify(ratings)
-
-
-@app.route("/api/ratings/<stockTicker>")
-def getRatingDetail(stockTicker):
-    headers = {'Authorization': os.environ.get('DATABASE_ACCESS_KEY')}
-    r = requests.get(os.environ.get('DATABASE_REST_API'), headers=headers)
-    data = r.json()
-    if list(filter(lambda stock: stock["ticker"] == stockTicker, data)):
-        return jsonify(list(filter(lambda stock: stock["ticker"] == stockTicker, data))[0])
-    return "Stock not found", 400
+    return jsonify({"result": clf.predict_proba(parameter)[0][1]})
