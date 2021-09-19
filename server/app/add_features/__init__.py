@@ -68,39 +68,13 @@ def get_repetition_score(lyrics: str):
 
     return np.average(tfidf_matrix)
 
-def get_added_features(raw_data):
-    repetition_score = get_repetition_score(raw_data['lyrics'])
+def get_added_features(raw_data) -> dict:
+    repetition_score = get_repetition_score(str(raw_data))
     if repetition_score == None:
         return None
 
-    return_value:dict = {
+    return {
         "repetitionScore": repetition_score
     }
 
-    return return_value
 
-
-
-def fill_preprocessed(client):
-    db = client['htn']
-    raw_datas_collection = db['rawDatas']
-
-    processed_data_collection = db['processedData']
-
-    processed_data_collection.delete_many({})
-
-    raw_datas = raw_datas_collection.find({})
-
-    for raw_data in raw_datas:
-        added_features = get_added_features(raw_data)
-
-        if added_features == None:
-            continue
-
-        processed_data_collection.insert_one({
-            **added_features,
-            "isGoodSong": raw_data['isGoodSong'],
-            "lyrics": raw_data['lyrics'],
-            "artist": raw_data['artist'],
-            "song": raw_data['song']
-        })
